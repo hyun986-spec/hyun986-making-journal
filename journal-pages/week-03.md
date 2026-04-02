@@ -152,8 +152,7 @@ Overall, the rules were interpreted relatively clearly as intended. Specifically
 
 <br>
 
----
-<br>
+
 
 
 ## Independent Study: Live Data Visualisation

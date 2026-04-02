@@ -128,8 +128,7 @@ How long: The fill level of the dot represents the duration of spacing out
 
 <br>
 
----
-<br>
+
 
 
 ## Reflection
@@ -140,9 +139,3 @@ For my independent study, I chose the theme: Where do I space out the most? Alth
 The biggest challenge during the data collection was the ambiguity of data. I struggled with whether to view a split-second flicker of consciousness—where I briefly snapped out of it before drifting back—as a separate event or a continuous flow. Ultimately, I decided to treat these as overlapping experiences and recorded them as a single session. I also acknowledged that there were inevitably missing data points where I was not even aware I was spacing out. I believe these gaps and subjective judgements are precisely what make human data collection so fascinating, distinguishing it from mechanical data.
 
 To ensure efficiency, I simplified locations into two categories: Inside and Outside. While I felt some regret about omitting specific place names such as cafes or classrooms, I chose to focus on core environmental differences to prevent the data encoding from becoming overly complex during the visualisation stage. By recording when and how long each session lasted, I made a surprising discovery: I space out for much longer than expected. Most of my sessions were deep immersions lasting over two minutes, contrary to my expectation of brief flickers. However, this could also mean that I only recognised the longer sessions, while the shorter ones remained unrecorded in my subconscious.
-
-<<<<<<< Updated upstream
-This exercise allowed me to personally experience the values of the Dear Data project—focussing on context rather than just quantity. Instead of just counting the number of times, I strove to include specific details like the setting and the depth of immersion. I realised that data is not a perfect answer sheet but a mirror reflecting the patterns of our lives. Recording my mental absence by hand provided a unique opportunity to rediscover the rhythms of my time and space that had previously gone unnoticed.
-=======
-This exercise allowed me to personally experience the values of the Dear Data project—focussing on context rather than just quantity. Instead of just counting the number of times, I strove to include specific details like the setting and the depth of immersion. I realised that data is not a perfect answer sheet but a mirror reflecting the patterns of our lives. Recording my mental absence by hand provided a unique opportunity to rediscover the rhythms of my time and space that had previously gone unnoticed.
->>>>>>> Stashed changes
