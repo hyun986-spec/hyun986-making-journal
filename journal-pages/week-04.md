@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Week 04
+# Experiment 4: Artificial Intelligence
 
 [← Back to Home](../index.md)
 
