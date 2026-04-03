@@ -6,12 +6,14 @@ layout: default
 
 [← Back to Home](../index.md)
 
+<br>
+
 ## In-Class Activities
 
 **Overview:** In this experiment, I explored both local and cloud-based AI workflows. These activities allowed me to engage with the practical and ethical dimensions of working with AI, building on the concepts of data representation I studied in previous experiments.
 
 
----
+
 ### Activity 1: Local AI with Ollama
 For the first activity, I used Ollama to run a local AI model and tested its ability to generate creative code.
 <br>
@@ -19,23 +21,19 @@ For the first activity, I used Ollama to run a local AI model and tested its abi
 
 **[TEST 1]** Prompt: Write a simple p5.js sketch representing 'spacing out' moments using Gold circles for outside and Black for inside, where the fill amount reflects the duration.
 
-**Ollama**
-
-![alt text](week4-1.png)
-![alt text](week4-2.png)
+- **Ollama**
+![alt text](../assets/week-04/week4-1.png)
+![alt text](../assets/week-04/week4-2.png)
 *(Figure 1,2. Screenshot of Ollama page)*
-
-![alt text](week4-3.png) 
+![alt text](../assets/week-04/week4-3.png)
 *(Figure 3. Screenshot of p5.js web editor: Ollama prompt)*
 
 <br>
 
-**ChatGPT**
-
-![alt text](week4-4.png)
+- **ChatGPT**
+![alt text](../assets/week-04/week4-4.png)
 *(Figure 4. Screenshot of ChatGPT page)*
-
-![alt text](week4-5.png) 
+![alt text](../assets/week-04/week4-5.png)
 *(Figure 5. Screenshot of p5.js web editor: ChatGPT prompt)*
 
 <br>
@@ -44,25 +42,19 @@ For the first activity, I used Ollama to run a local AI model and tested its abi
 
 
 
-**Ollama**
-
-![alt text](week4-6.png)
-![alt text](week4-7.png) 
+- **Ollama**
+![alt text](../assets/week-04/week4-6.png)
+![alt text](../assets/week-04/week4-7.png)
 *(Figure 6,7. Screenshot of Ollama page: Parrot)*
-
-![alt text](<KakaoTalk_Photo_2026-04-02-23-31-09 001.gif>)
+![alt text](../assets/week-04/week4-8.gif)
 *(Figure 8. GIF of p5.js web editor: Ollama prompt)*
-
 
 <br>
 
-**ChatGPT**
-
-![alt text](<스크린샷 2026-04-02 오전 10.15.20.png>)
+- **ChatGPT**
+![alt text](../assets/week-04/week4-9.png)
 *(Figure 9. Screenshot of ChatGPT page: Parrot)*
-
-
-![alt text](<KakaoTalk_Photo_2026-04-02-23-31-10 002.gif>)
+![alt text](../assets/week-04/week4-10.gif)
 *(Figure 10. GIF of p5.js web editor: ChatGPT prompt)*
 
 <br>
@@ -100,19 +92,21 @@ For the second activity, I used NotebookLM to organize my research and experimen
 I curated a collection of resources that have shaped my understanding of data and AI. The sources included in my notebook are as follows:
 
 
-My Making Journal: https://hyun986-spec.github.io/hyun986-making-journal/\
-Practitioner Inspiration (David Bowen): https://www.dwbowen.com/\
-Data Sources (World Bank Fertility Rates): https://data.worldbank.org/indicator/SP.DYN.TFRT.IN\
-Creative Resources (The Coding Train): https://thecodingtrain.com/\
-Giorgia Lupi’s Talk on Data Humanism: https://www.youtube.com/watch?v=sFIDCtRX_-o\
-Māori Feminism Context: https://www.youtube.com/watch?v=VXy8S3kvnlE
+- My Making Journal: https://hyun986-spec.github.io/hyun986-making-journal/
+- Practitioner Inspiration (David Bowen): https://www.dwbowen.com/
+- Data Sources (World Bank Fertility Rates): https://data.worldbank.org/indicator/SP.DYN.TFRT.IN
+- Creative Resources (The Coding Train): https://thecodingtrain.com/
+- Giorgia Lupi’s Talk on Data Humanism: https://www.youtube.com/watch?v=sFIDCtRX_-o
+- Maori Feminism Context: https://www.youtube.com/watch?v=VXy8S3kvnlE
 
 <br>
 
 #### 2. Framing the Research (context.md)
 
 To guide the AI's focus, I created a context.md file. This document outlines my core interests and directs the AI toward my specific research goals.
-Content of context.md:\
+
+**Content of context.md:**
+
 The experiment I found most interesting, and why: Experiment 3, which focused on data exploration through APIs, was the most engaging activity for me. It was truly impressive to move beyond passively receiving datasets and instead directly extract and control real-time data to create a custom sketch. By designing a system that aligned with my specific vision and communicating with LLMs to evolve the data flow, I was able to transform raw numbers into a dynamic visual design that communicates information at a glance.
 
 A theme or idea I keep coming back to: The concept of "Data Humanism," which originated from my "Spacing Out" records in Experiment 1, has been a constant theme in my creative process. I am continuously exploring ways to translate cold, rigid numbers into warm, meaningful narratives about small, unconscious human moments. I am deeply fascinated by the idea that data visualization can transcend being a mere information tool and become an artistic medium that fosters empathy for the human experience.
@@ -122,7 +116,7 @@ Something I’m curious about but haven’t had a chance to explore yet: I hav
 <br>
 
 
- ![alt text](week4-11.png)
+![alt text](../assets/week-04/week4-11.png)
 *(Figure 11. Screenshot of the NotebookLM page showing the uploaded sources and context.md)*
 
 <br>
@@ -136,7 +130,7 @@ After setting up the notebook, I interacted with the AI using specific prompts t
 
 **Prompt 1: Identifying the Value of My Work**
 - "Based on my making journal and the sources I provided, what are the core values or themes that I seem to care about as a designer?"
-![alt text](week4-12.png)
+![alt text](../assets/week-04/week4-12.png)
 *(Figure 12. Screenshot of the NotebookLM 1)*
 
 Reflection: The AI successfully connected my fragmented experiments into a coherent identity, using keywords like Data Humanism and Active Designer. It was encouraging to see the AI objectify my work and discover its social value. However, I felt that some of the simple joy and specific technical struggles I experienced were overshadowed by grand academic terms like "Ethical Sovereignty." While the AI helped define my professional identity, it left me thinking about how to balance this high-level framing with my own concrete, personal experiences.
@@ -145,7 +139,7 @@ Reflection: The AI successfully connected my fragmented experiments into a coher
 
 **Prompt 2: Imagining the Final Project Outcome**
 - "If all these sources—David Bowen's kinetic art, the World Bank's low birth rate data, and Giorgia Lupi's 'Data Humanism'—were documentation for a single design project, what would the final outcome look like?"
-![alt text](week4-13.png)
+![alt text](../assets/week-04/week4-13.png)
 *(Figure 13. Screenshot of the NotebookLM 2)*
 
 Reflection: I was impressed by the AI's creativity in integrating three very different sources—David Bowen’s mechanical aesthetics, World Bank statistics, and Giorgia Lupi’s philosophy—into a concrete solution: "A kinetic installation powered by real-time data." However, the AI included my "spacing out" records in its response based on previous context, even though I had intentionally excluded them from this specific prompt. This highlighted a limitation: AI tends to arbitrarily fill in gaps based on past data. I realized that a designer’s "critical editing ability"—the power to filter out unnecessary elements and focus on the core (e.g., the artistic reinterpretation of low birth rate data)—is essential.
@@ -154,7 +148,7 @@ Reflection: I was impressed by the AI's creativity in integrating three very dif
 
 **Prompt 3: Identifying a Provocation or Challenging Question**
 - "Identify a 'provocation' or a challenging question hidden in my sources regarding how we treat human data vs. macro-level statistics."
-![alt text](week4-14.png)
+![alt text](../assets/week-04/week4-14.png)
 *(Figure 14. Screenshot of the NotebookLM 3)*
 
 Reflection: The AI provided a sharp insight, challenging my bias that data is always an "absolute truth." It suggested that to capture "uncountable human moments" that numbers miss, one must sometimes look past the numbers themselves. A major takeaway was the idea of designing data that captures human aspiration rather than just proving a deficiency. On the downside, these insights were quite philosophical, offering no clear methodology on how to actually implement "imperfection" as a numerical value in a design. The challenge of maintaining objectivity while fostering empathy remains a task for me to solve.
@@ -163,8 +157,8 @@ Reflection: The AI provided a sharp insight, challenging my bias that data is al
 
 **Prompt 4: Verifying Source Usage**
 - "Which specific parts of my sources did you use to come up with that answer, and were there any sources you ignored? Why?"
-![alt text](week4-15.png)
-![alt text](week4-16.png)
+![alt text](../assets/week-04/week4-15.png)
+![alt text](../assets/week-04/week4-16.png)
 *(Figure 15,16. Screenshot of the NotebookLM 4)*
 
 Reflection: A strength of the AI was its ability to accurately link the emotional reflections in my journal with Giorgia Lupi’s philosophical background to build a "design narrative." However, by ignoring "administrative" data like menus or help guides, the AI glossed over the specific technical contexts and limitations of the actual implementation. I noticed a potential for data distortion: because the AI selected sources to fit the specific philosophical frame of "Data Humanism," my work felt overly romanticized or biased toward that interpretation. This was a crucial moment for me to critically view how AI selectively accepts information and potentially shifts the original intent.
@@ -176,7 +170,7 @@ Reflection: A strength of the AI was its ability to accurately link the emotiona
 ### 4. Generate the Audio Overview
 After exploring the chat, I generated the Audio Overview in NotebookLM. I listened to the AI-generated conversation between two hosts discussing my research and sources.
 
-![alt text](week4-17.png)
+![alt text](../assets/week-04/week4-17.png)
 *(Figure 17. Screenshot of the NotebookLM: Audio)*
 
 **1. What surprised you the most?**\
@@ -194,7 +188,7 @@ While reading chat responses felt like simply retrieving information to answer m
 ## Independent Study: AI-Assisted Data Exploration
 **Overview:** For this week’s independent study, I chose to explore a public dataset focused on life in Aotearoa New Zealand. 
 
----
+
 
 ### Step 1: Find a Dataset
 **Dataset Title:** The attributes of high achieving secondary school students and their teachers\
@@ -204,7 +198,7 @@ For this week’s independent study, I selected a qualitative dataset containing
 
 The reasons behind my selection of this dataset are deeply rooted in my personal background. As someone who completed the New Zealand secondary education system just a few years ago, I have always been fascinated by the practical dynamics between high achieving students and the teachers who drive their growth. What makes this data particularly special to me is that it refuses to be confined to mere academic scores. Instead, it captures vivid, qualitative records of how students subjectively define success and the real-life interactions that enrich their learning experiences.
 
-![alt text](week4-18.png)
+![alt text](../assets/week-04/week4-18.png)
 *(Figure 18. Screenshot of the Dataset: The attributes of high achieving secondary school students and their teachers)*
 
 --- 
@@ -237,7 +231,7 @@ In this stage, I aimed to transform the qualitative insights into visual forms. 
 **1. Overall Summary Infographic (Overview)**\
 This representation is useful for showing the core contents of the data at a single glance.
 - Prompt: Create an infographic summarising New Zealand secondary school students' perceptions of 'academic success' and 'teacher quality' in 2016. Visually represent the gender and ethnic distribution of students, the five most important traits mentioned for academic achievement, and the key differences that distinguish the best teachers from the worst.
-![alt text](<image (6).png>)
+![alt text](../assets/week-04/week4-19.png)
 *(Figure 19. Screenshot of the "Overview" infographic prompt and AI response in the NotebookLM chat)*
 
 <br>
@@ -245,7 +239,7 @@ This representation is useful for showing the core contents of the data at a sin
 **2. 'Successful Student' Profile Analysis (Student Success Profile)**\
 This approach focuses specifically on the factors that students identify as drivers of success.
 - Prompt: Based on the source data, produce an infographic titled 'Portrait of an Academically Successful Student'. Use charts and icons to show the character traits commonly mentioned by students (e.g., diligence, organisation, resilience), their learning habits.
-![alt text](<image (5).png>)
+![alt text](../assets/week-04/week4-20.png)
 *(Figure 20. Screenshot of the "Student Success Profile" conceptualisation within NotebookLM)*
 
 <br>
@@ -253,7 +247,7 @@ This approach focuses specifically on the factors that students identify as driv
 **3. 'Best vs Worst' Teacher Attribute Comparison (Best vs Worst Teacher)**\
 This version contrasts student perceptions to derive critical educational insights.
 - Prompt: Create an infographic comparing student perceptions of the best and worst teachers. Visualise the positive attributes held by the best teachers (passion, empathy, individual support) and contrast them with the negative attributes of those cited as the worst (unkindness, unclear explanations, favouritism) using a contrasting layout.
-![alt text](<image (4).png>)
+![alt text](../assets/week-04/week4-21.png)
 *(Figure 21. Screenshot of the comparative analysis between "Best" and "Worst" teachers in NotebookLM)*
 
 <br>
@@ -261,15 +255,15 @@ This version contrasts student perceptions to derive critical educational insigh
 **4. Demographics and Background Centred (Demographics & Background)**\
 This representation is ideal for exploring the relationship between parental education levels and student achievement.
 - Prompt: Generate an infographic analysing the demographic backgrounds of the 583 students in the survey. Organise the ethnic distribution, parents' education levels, and their NCEA achievement levels into a layout that can be understood at a glance.
-![alt text](<image (3).png>)
+![alt text](../assets/week-04/week4-22.png)
 *(Figure 22. Screenshot of the final consolidated "Master Dashboard" prompt and the structured data synthesis in NotebookLM)*
 
 
 #### Final Synthesis: Consolidating into a Master Dashboard
 After testing the individual versions above, I designed a final master prompt to integrate all elements into a single, high-density dashboard.
 - Final prompt: Create a comprehensive dashboard infographic for 2016 NZ secondary students. Top Section (Context): Summary charts of the 583 participants (gender, ethnicity, parental education). Centre Section (The Student): A 'Profile of Success' featuring key keywords like diligence and resilience. Bottom Section (The Teachers): A contrasting comparison of qualities between the 'Best' and 'Worst' teachers. Style: High-density 'Data Humanism' approach, prioritising qualitative student narratives over standard statistical graphs.
-![alt text](<image (2).png>)
-*(Figure 24. Screenshot of the final "Master Dashboard" synthesis in NotebookLM)*
+![alt text](../assets/week-04/week4-23.png)
+*(Figure 23. Screenshot of the final "Master Dashboard" synthesis in NotebookLM)*
 
 <br>
 
@@ -277,16 +271,16 @@ After testing the individual versions above, I designed a final master prompt to
 
 ### Step 4: Critically Evaluate
 **What was the AI’s default approach?**\
-In the visualisation design process, I made a conscious decision to break away from the AI’s inherent 'efficiency-orientated' assumptions. Because generating images required limited credits, I had to be meticulously prepared to ensure the AI did not fall into the trap of treating the data as merely 'objective statistics'—confining it to cold, blue bar charts or rigid rectangular boxes.
+In the visualisation design process, I made a conscious decision to move away from the AI’s inherently efficiency oriented approach. Because image generation was limited by credits, I had to be more intentional with my prompts and direction. I wanted to avoid the AI reducing the data to purely objective statistics, presented as cold bar charts or rigid rectangular forms.
 
 **What did you have to override or correct?**\
-I provided detailed visual guidelines to generate four distinct versions. Although they shared the same data, each focused on different core elements. I then took charge of the structural design, instructing the AI to integrate these into a single, organically connected "Comprehensive Dashboard." Crucially, I redirected the AI to place subjective student responses (such as diligence and communication)—which AI often de-prioritises—at the central focus of the visualisation. This ensured that the 'student', rather than the 'number', remained the protagonist of the data.
+I provided detailed visual guidelines to generate four distinct versions. Although they were based on the same data, each one emphasised a different core element. I then took control of the overall structure, directing the AI to combine them into a single, organically connected comprehensive infographic. Importantly, I prioritised subjective student responses, such as diligence and communication, which AI often tends to overlook. By placing these at the centre of the visualisation, I ensured that the focus remained on the student rather than just the numbers.
 
 **Which representation was the most interesting, and why?**\
-The final consolidated dashboard, which integrated the four perspectives (background, student, teacher, and statistics), was the most compelling. Data points that initially seemed fragmented were woven into a complete narrative: 'Student’s Environment → Student’s Values → Teacher’s Influence.' It was fascinating to see the AI’s output align with the 'organic connectivity' I had envisioned.
+The final consolidated infographic, which brought together the four perspectives of background, student, teacher, and statistics, was the most compelling outcome. What initially appeared as separate and fragmented data points gradually formed a more complete and connected narrative. The infographic illustrated how a student’s environment influences their values, which are then shaped further through the teacher’s role and impact. I found it particularly satisfying to see the AI’s output reflect the sense of organic connectivity I had originally intended, as the different elements were not only visually integrated but also conceptually linked into a meaningful whole.
 
 **What would you have done differently without AI?**\
-If I had brainstormed and drawn this by hand, I would have moved away from representing the average data of 583 students. Instead, I would have created a 'Data Portrait' focusing on a single student who left the most poignant response. While AI excels at processing all elements simultaneously, I would have focused more on individual uniqueness to complete the task efficiently. I also would have eschewed the AI’s polished layout in favour of imperfect lines and hand-drawn typography to better capture the raw emotions of the students.
+If I had completed this project without using AI, I would have moved away from trying to include all the information at once. Instead, I would have created a data portrait focused on a single student who gave the most poignant response. While AI is effective at processing and presenting multiple elements simultaneously, I would have focused more on individual uniqueness. I also would have moved away from the AI’s polished layout, choosing instead to use imperfect lines and hand-drawn typography to better capture the raw emotions of the students.
 
 
 <br>
@@ -301,7 +295,7 @@ I selected a 2016 survey dataset titled ‘The attributes of high achieving seco
 <br>
 
 **Data Exploration and Limitations of AI Tools**\
-AI tools were immensely helpful in rapidly extracting key terms like 'diligence', 'passion', and 'communication' from vast narrative responses, and in structuring complex correlations between demographics and achievement. However, the AI failed to fully grasp the emotional context. For instance, when a student answered 'I don't know' regarding their parents' education, the AI treated it as a simple missing value. I, however, interpreted this as a significant signal of alienation or a lack of educational support within the home. This highlighted why a designer’s critical interpretation is essential to transcend mechanical analysis.
+I found AI tools immensely helpful in rapidly extracting key terms like diligence, passion, and communication from large narrative responses, as well as in structuring complex relationships between demographics and achievement. However, I also realised that the AI struggled to fully capture the emotional context. For example, when a student answered “I don’t know” regarding their parents’ education, the AI treated it as a simple missing value. I interpreted this instead as a meaningful signal of alienation or a lack of educational support at home. This made it clear to me that a designer’s critical interpretation is essential to go beyond purely mechanical analysis.
 
 <br>
 
@@ -315,11 +309,12 @@ Insights gained from data change drastically depending on the 'focus' of the vis
 
 <br>
 
-**Applying Data Feminism and Māori Data Sovereignty**\
-D’Ignazio and Klein’s Data Feminism prompted me to ask: "Whose voice is being prioritised?" By emphasizing emotional data regarding 'human treatment' by teachers over power-laden metrics like grades, I challenged traditional hierarchical interpretations. Furthermore, the perspective of Māori Data Sovereignty (as discussed by Mikaere) led me to view Iwi (tribal) information not as a mere classification, but as a 'strategic asset and ancestral root'. Incorporating Māori patterns and clearly highlighting identity was an attempt to redefine data as a tool for supporting Māori self-determination rather than a means of control.
+**Applying Data Feminism and Maori Data Sovereignty**\
+I was influenced by Data Feminism, which led me to question whose voices were being prioritised in the data. By focusing on emotional aspects such as how students felt they were treated by teachers, rather than dominant metrics like grades, I aimed to challenge more traditional, hierarchical interpretations of data. I was also guided by the perspective of Maori Data Sovereignty, particularly ideas discussed by Margaret Mutu (often associated with broader Indigenous data governance discussions). This encouraged me to see iwi (tribal) information not simply as a category, but as a meaningful representation of identity, connection, and history. By incorporating Maori visual patterns and clearly foregrounding identity, I aimed to frame data as something that supports Maori self-determination, rather than something used for classification or control.
 
 <br>
 
 **Concluding Thoughts and Future Directions**\
-The greatest takeaway from using AI as a design tool was the ability to understand unfamiliar data quickly and generate diverse visual directions. However, the most meaningful results emerged only when I, as the designer, led the process and provided critical guidelines. AI functions best not as an automated generator, but as a 'collaborative partner' that supports both exploration and critical reflection. If given more time, I would like to produce a 'Data Portrait' of a single student—someone like the friends I met in New Zealand schools—using hand-drawn elements to capture the emotional truths and uniqueness that institutional perspectives often overlook.
+My biggest takeaway from using AI as a design tool was how quickly it helped me understand unfamiliar data and generate a wide range of visual directions. However, the most meaningful outcomes only emerged when I took the lead as the designer and guided the process with clear, critical decisions. I came to see that AI works best not as an automated generator, but as a collaborative partner that supports both exploration and reflection.
+If I were given more time, I would like to create a data portrait of a single student, inspired by people I have met in New Zealand schools. By using hand-drawn elements, I would aim to capture emotional depth and individual nuance that are often overlooked in more institutional or data-driven perspectives.
 
