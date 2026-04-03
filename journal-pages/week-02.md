@@ -135,6 +135,7 @@ Through this process, I developed a deeper understanding of the trigonometry inv
 ![alt text](../assets/week-02/week2-15.gif)
 *(Figure 15. GIF of the improved interactive version)*
 
+**What improved?**\
 After discussing the project with a friend, I realised that the aesthetic appeal of the simple circles could be further empowered by interactivity. I subsequently integrated a 'details-on-demand' functionality, ensuring that deeper insights were available upon a click. This balance between minimalist design and informative depth was key to refining the final interface.
 
 <br>
