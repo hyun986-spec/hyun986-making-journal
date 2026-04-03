@@ -110,7 +110,7 @@ I tried to record my data as accurately as possible over four days, but I think 
 
 When: The clock serves as a canvas to record the specific time of each moment
 
-Where: Gold: Outside | Black: Inside
+Where: Gold: Outside, Black: Inside
 
 How long: The fill level of the dot represents the duration of spacing out
 
