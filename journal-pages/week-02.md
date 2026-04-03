@@ -14,11 +14,11 @@ layout: default
 
 ### Activity 1: Drawing with Code
 #### Shapes
-![alt text](week2-shape.png)
+![alt text](../assets/week-02/week2-1.png)
 *(Figure 1. Screenshots of various sizes and shape experiments)*
 
 #### Warm-up Exercises
-![alt text](week2-warmup.png)
+![alt text](../assets/week-02/week2-2.png)
 *(Figure 2. Screenshots of warm-up experiments)*
 
 In the process of creating forms on a screen through simple numerical inputs, I gained an intuitive understanding of the p5.js canvas coordinate system. I found it particularly engaging during the first task to layer a yellow circle behind a green rectangle to create a visual of a sun setting over the horizon. In the second exercise, I explored the importance of parameter adjustment by using multiple arguments in the rect() function to round corners and precisely aligning the three vertex coordinates for the triangle(). While I initially struggled to estimate the (x, y) positions and had to tweak the numbers repeatedly, it was a valuable experience that helped me develop a sense of how code values translate into visual scale and placement.
@@ -28,15 +28,15 @@ In the process of creating forms on a screen through simple numerical inputs, I 
 ### Activity 2: Make an Interactive Sketch
 
 #### Sliders
-![alt text](week2-dom1.gif) 
+![alt text](../assets/week-02/week2-3.gif)
 *(Figure 3. GIF of sliders adjusting shape sizes)*
 
 #### Text Input
-![alt text](week2-dom2.gif) 
+![alt text](../assets/week-02/week2-4.gif)
 *(Figure 4. GIF of the text input window)*
 
 #### Random Generation Button
-![alt text](week2-dom3.gif)
+![alt text](../assets/week-02/week2-5.gif)
 *(Figure 5. GIF of the button generating random drawings)*
 
 Beyond simply drawing shapes on a canvas, I learned how users can communicate with the screen in real-time by practising with DOM elements such as createSlider(), createInput(), and createButton(). By observing how a rectangle’s size changed according to the slider’s position and seeing input text appear instantly in the centre of the screen, I intuitively understood how data values connect to visual elements. I was especially fascinated by the exercise where clicking a button triggered the random() function to generate circles in unexpected positions and colours; it showed me that code is not just a fixed output but a 'living system' with infinite possibilities. This was a rewarding session that allowed me to build a solid foundation in interaction design, where user participation becomes an integral part of the work.
@@ -48,15 +48,15 @@ Beyond simply drawing shapes on a canvas, I learned how users can communicate wi
 
 #### Dynamic Gravity Field
 
-![alt text](<KakaoTalk_Photo_2026-04-02-23-56-40 002.gif>)
+![alt text](../assets/week-02/week2-6.gif)
 *(Figure 6. GIF of testing the Dynamic Gravity Field sketch)*
 
 #### Organic Tendrils
-![alt text](<KakaoTalk_Photo_2026-04-02-23-56-41 003.gif>)
+![alt text](../assets/week-02/week2-7.gif)
 *(Figure 7. GIF of testing the Organic Tendrils sketch)*
 
 #### Spiral Geometric Brush
-![alt text](<KakaoTalk_Photo_2026-04-02-23-56-45 004.gif>)
+![alt text](../assets/week-02/week2-8.gif)
 *(Figure 8. GIF of testing the Spiral Geometric Brush sketch)*
 
 By utilising an LLM to implement sketches that required complex mathematical logic step-by-step, I was amazed to see how simple snippets of code could transform into organic, life-like movements following the mouse path (Organic Tendrils) or brilliant, geometric spirals (Spiral Geometric Brush). During my initial attempts, I encountered some trial and error where the particle speeds were too fast or the screen was cluttered with messy trails. However, I managed to resolve these issues by learning how to adjust the alpha value (transparency) of the background to create smooth trails and using lerp and vectors to control acceleration. In particular, mastering the class structure to independently manage the position and velocity of numerous objects was a significant turning point; it helped me realise that coding is not merely a list of commands, but a process of designing a sophisticated physical system.
@@ -78,24 +78,24 @@ Admittedly, there was some trial and error as the LLM did not perfectly grasp my
 <br>
 
 
-![alt text](<image (7).png>)
+![alt text](../assets/week-02/week2-9.png)
 *(Figure 9. Photo of the original data collected)*
 
-![alt text](<image (8).png>)
+![alt text](../assets/week-02/week2-10.png)
 *(Figure 10. My original data drawing)*
 
-![alt text](<스크린샷 2026-03-31 오후 3.45.02.png>)
+![alt text](../assets/week-02/week2-11.png)
 *(Figure 11. Initial data visualisation generated via LLM based on my records)*
 
 
-![alt text](<스크린샷 2026-03-31 오후 5.01.34.png>)
+![alt text](../assets/week-02/week2-12.png)
 *(Figure 12. Manual code adjustments and debugging to match the original intent)*
 
 ---
 ### Step 2: Design your interactive visualisation
 In this stage, I used p5.dom to implement an interactive system that allows users to input and visualise their own "spacing out" data. I designed a text input for the time (When), radio buttons for the location (Where), and a dropdown menu to determine the duration (How long). The system is structured so that as soon as the 'Register' button is clicked, a data portrait is drawn onto the canvas in real-time. Once the information is submitted, the values are bundled into an Object and stored in an array; the program then reads this structure to render the visuals instantaneously.
 
-![alt text](<스크린샷 2026-03-31 오후 8.52.24.png>)
+![alt text](../assets/week-02/week2-13.png)
 *(Figure 13. Screenshot of my "Space-out Recorder" visualisation design)*
 
 However, implementing these interactive features led me to reflect on the limitations of the data simplification I had used during the analogue recording stage. When drawing by hand, I limited the locations to just two categories—'Inside' and 'Outside'—due to concerns over visual complexity and legibility. Through this digital transition, I realised that a digital environment allows for 'Details-on-demand'. For example, if I had designed a control method where the data initially appears as a simple circular segment, but reveals specific details (e.g., Library 3rd floor, Park bench) and the exact timestamp only when clicked, I could have achieved both visual clarity and data richness simultaneously.
@@ -117,14 +117,14 @@ I conducted a data validation step by asking a friend to provide a 'spacing out'
 
 <br>
 
-![alt text](2-3.gif)
+![alt text](../assets/week-02/week2-14.gif)
 *(Figure 14. GIF of the "Space-out" data visualisation)*
 
 I experienced several technical challenges before finalising the visualisation code. A major issue occurred where the fill amount of the circles was supposed to vary based on the duration of "spacing out," yet all data points were incorrectly displayed as "Full" circles. Recognising that AI assistance alone could not resolve this subtle logic error, I researched the necessary mathematical principles and debugged the code line-by-line. Through this process, I gained a deep understanding of the trigonometry involved in drawing circular segments arc() and successfully reconfigured UI elements, such as sub-titles, to match my original vision. By testing the completed system with my friend's data, I was able to verify that the program accurately visualises real-world user records.
 
 <br>
 
-![alt text](2-2.gif)
+![alt text](../assets/week-02/week2-15.gif)
 *(Figure 15. GIF of the improved interactive version)*
 
 After discussing the project with a friend, I realised that the aesthetic appeal of the simple circles could be further empowered by interactivity. I subsequently integrated a 'details-on-demand' functionality, ensuring that deeper insights were available upon a click. This balance between minimalist design and informative depth was key to refining the final interface.

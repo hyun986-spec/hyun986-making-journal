@@ -15,31 +15,31 @@ layout: default
 <br>
 
 #### Get the weather for a location using its GPS coordinates
-![alt text](week3-a11.png)
+![alt text](image.png)
 *(Figure 1. Screenshot of terminal application: Weather data for Korea)* [curl wttr.in/Korea]
 
 <br>
 
 #### Get the weather in a different language
-![alt text](week3-a12.png)
+![alt text](../assets/week-03/week3-2.png)
 *(Figure 2. Screenshot of terminal application: Weather data for Korea with Korean localized text)* [curl ko.wttr.in/Busan]
 
 <br>
 
 #### Get the current moon phase
-![alt text](week3-a13.png)
+![alt text](../assets/week-03/week3-3.png)
 *(Figure 3. Screenshot of terminal application: Current moon phase data)* [curl wttr.in/Moon]
 
 <br>
 
 #### Look up the synonyms and antonyms of a word: Happy
-![alt text](week3-a14.png)
+![alt text](../assets/week-03/week3-4.png)
 *(Figure 4. Screenshot of terminal application: Dictionary definition of 'Happy')* [curl https://api.dictionaryapi.dev/api/v2/entries/en/happy]
 
 <br>
 
 #### Find something else in the documentation that we haven’t covered
-![alt text](week3-a15.png) 
+![alt text](../assets/week-03/week3-5.png) 
 *(Figure 5. Screenshot of terminal application: Implementation interface)* [curl "wttr.in/Korea?format=%l:+%t+%c"]
 
 <br>
@@ -55,7 +55,7 @@ Using the p5.js web editor, I experimented with mapping real-time weather data f
 I transitioned the data source from the previous coordinates to Busan (35.17, 129.07) to monitor real-time data shifts. This experiment focused on how localised datasets from contrasting environments differentiate the visual properties, such as colour and shape, within the generative sketch.
 <br>
 
-![alt text](week3-a21.png)
+![alt text](../assets/week-03/week3-6.png)
 *(Figure 6. Screenshot of p5.js web editor: Updating geographic location)*
 
 <br>
@@ -64,7 +64,7 @@ I transitioned the data source from the previous coordinates to Busan (35.17, 12
 I experimented with using live data to control various visual properties. Specifically, I modified the sketch to map temperature values to the size of white circles, allowing the real-time thermal data to dictate the physical scale of the visual elements.
 <br>
 
-![alt text](week4-a22.png)
+![alt text](../assets/week-03/week3-7.png)
 *(Figure 7. Screenshot of p5.js web editor: Visualizing temperature via white circle size)*
 
 <br>
@@ -73,7 +73,7 @@ I experimented with using live data to control various visual properties. Specif
 I expanded the dataset by adding Cloud Cover from the Open-Meteo documentation. To visualise this variable, I placed a white rectangle in the bottom-left corner and programmed its horizontal width to scale in response to the cloud data. This allowed me to translate atmospheric conditions into dynamic, structural changes within the sketch.
 <br>
 
-![alt text](week3-a23.png)
+![alt text](../assets/week-03/week3-8.png)
 *(Figure 8. Screenshot of p5.js web editor: Integrating cloud cover visualization)*
 
 <br>
@@ -82,7 +82,7 @@ I expanded the dataset by adding Cloud Cover from the Open-Meteo documentation. 
 Moving beyond simply controlling circle size with temperature data, I integrated wind speed data to govern the circles' movement, creating a more dynamic representation of the environment. To enhance the focus of the visualisation, I removed the redundant red rectangle at the bottom and replaced it with a data bar dedicated to cloud cover. This structural change enabled a cleaner composition, prioritising the relationships among multiple weather variables through more refined visual mapping.
 <br>
 
-![alt text](week3-a24.gif)
+![alt text](../assets/week-03/week3-9.gif)
 *(Figure 9. GIF of p5.js web editor: Generative motion using random and noise functions)*
 
 <br>
@@ -101,10 +101,10 @@ Conclusion: Instead of listing multiple shapes, I concentrated the temperature, 
 
 <br>
 
-![alt text](week3-busan.gif)
+![alt text](../assets/week-03/week3-10.gif)
 *(Figure 10. GIF of p5.js web editor: Real-time weather visualization for Busan)*
 
-![alt text](week3-auckland.gif) 
+![alt text](../assets/week-03/week3-11.gif)
 *(Figure 11. GIF of p5.js web editor: Real-time weather visualization for Auckland)*
 
 <br>
@@ -129,7 +129,7 @@ We designed a protocol to observe how digital device usage manifests physically 
 
 <br>
 
-![alt text](week3-our-protocol.png)
+![alt text](../assets/week-03/week3-12.png)
 *(Figure 12. Documentation: Our team's design protocol)*
 
 <br>
@@ -144,7 +144,7 @@ We designed a protocol to observe how digital device usage manifests physically 
 
 <br>
 
-![alt text](week3-other-protocol.png) 
+![alt text](../assets/week-03/week3-13.png)
 *(Figure 13. Documentation: Comparison with other team's protocol)*
 
 \
@@ -176,7 +176,7 @@ Among the above data options, I selected the World Air Quality Index (WAQI) as m
 
 <br>
 
-![alt text](week3-web.png)
+![alt text](../assets/week-03/week3-14.png)
 *(Figure 14. Screenshot of WAQI web page)*
 
 (Figure 9. GIF of p5.js web editor: Generative motion using random and noise functions)
@@ -202,7 +202,7 @@ To transform my initial concepts into a functional algorithm, I used Gemini as a
 ### Step 3: Final Generative Visualization
 *The completed interactive sketch that visualizes real-time air quality*
 
-![alt text](week3-final.gif)
+![alt text](../assets/week-03/week3-15.gif)
 *(Figure 15. GIF of p5.js web editor: Final Generative Visualization)*
 
 <br>
