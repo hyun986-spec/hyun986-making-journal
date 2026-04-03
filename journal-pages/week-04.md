@@ -121,7 +121,8 @@ Something I’m curious about but haven’t had a chance to explore yet: I hav
 
 <br>
 
- ![alt text](<스크린샷 2026-04-02 오후 4.39.02.png>)
+
+ ![alt text](week4-11.png)
 *(Figure 11. Screenshot of the NotebookLM page showing the uploaded sources and context.md)*
 
 <br>
@@ -135,7 +136,7 @@ After setting up the notebook, I interacted with the AI using specific prompts t
 
 **Prompt 1: Identifying the Value of My Work**
 - "Based on my making journal and the sources I provided, what are the core values or themes that I seem to care about as a designer?"
-![alt text](<스크린샷 2026-04-02 오후 5.19.33.png>)
+![alt text](week4-12.png)
 *(Figure 12. Screenshot of the NotebookLM 1)*
 
 Reflection: The AI successfully connected my fragmented experiments into a coherent identity, using keywords like Data Humanism and Active Designer. It was encouraging to see the AI objectify my work and discover its social value. However, I felt that some of the simple joy and specific technical struggles I experienced were overshadowed by grand academic terms like "Ethical Sovereignty." While the AI helped define my professional identity, it left me thinking about how to balance this high-level framing with my own concrete, personal experiences.
@@ -144,7 +145,7 @@ Reflection: The AI successfully connected my fragmented experiments into a coher
 
 **Prompt 2: Imagining the Final Project Outcome**
 - "If all these sources—David Bowen's kinetic art, the World Bank's low birth rate data, and Giorgia Lupi's 'Data Humanism'—were documentation for a single design project, what would the final outcome look like?"
-![alt text](<스크린샷 2026-04-02 오후 5.17.28.png>)
+![alt text](week4-13.png)
 *(Figure 13. Screenshot of the NotebookLM 2)*
 
 Reflection: I was impressed by the AI's creativity in integrating three very different sources—David Bowen’s mechanical aesthetics, World Bank statistics, and Giorgia Lupi’s philosophy—into a concrete solution: "A kinetic installation powered by real-time data." However, the AI included my "spacing out" records in its response based on previous context, even though I had intentionally excluded them from this specific prompt. This highlighted a limitation: AI tends to arbitrarily fill in gaps based on past data. I realized that a designer’s "critical editing ability"—the power to filter out unnecessary elements and focus on the core (e.g., the artistic reinterpretation of low birth rate data)—is essential.
@@ -153,7 +154,7 @@ Reflection: I was impressed by the AI's creativity in integrating three very dif
 
 **Prompt 3: Identifying a Provocation or Challenging Question**
 - "Identify a 'provocation' or a challenging question hidden in my sources regarding how we treat human data vs. macro-level statistics."
-![alt text](<스크린샷 2026-04-02 오후 5.20.56.png>)
+![alt text](week4-14.png)
 *(Figure 14. Screenshot of the NotebookLM 3)*
 
 Reflection: The AI provided a sharp insight, challenging my bias that data is always an "absolute truth." It suggested that to capture "uncountable human moments" that numbers miss, one must sometimes look past the numbers themselves. A major takeaway was the idea of designing data that captures human aspiration rather than just proving a deficiency. On the downside, these insights were quite philosophical, offering no clear methodology on how to actually implement "imperfection" as a numerical value in a design. The challenge of maintaining objectivity while fostering empathy remains a task for me to solve.
@@ -162,8 +163,8 @@ Reflection: The AI provided a sharp insight, challenging my bias that data is al
 
 **Prompt 4: Verifying Source Usage**
 - "Which specific parts of my sources did you use to come up with that answer, and were there any sources you ignored? Why?"
-![alt text](<스크린샷 2026-04-02 오후 5.24.25.png>)
-![alt text](<스크린샷 2026-04-02 오후 5.24.35.png>)
+![alt text](week4-15.png)
+![alt text](week4-16.png)
 *(Figure 15,16. Screenshot of the NotebookLM 4)*
 
 Reflection: A strength of the AI was its ability to accurately link the emotional reflections in my journal with Giorgia Lupi’s philosophical background to build a "design narrative." However, by ignoring "administrative" data like menus or help guides, the AI glossed over the specific technical contexts and limitations of the actual implementation. I noticed a potential for data distortion: because the AI selected sources to fit the specific philosophical frame of "Data Humanism," my work felt overly romanticized or biased toward that interpretation. This was a crucial moment for me to critically view how AI selectively accepts information and potentially shifts the original intent.
@@ -175,7 +176,7 @@ Reflection: A strength of the AI was its ability to accurately link the emotiona
 ### 4. Generate the Audio Overview
 After exploring the chat, I generated the Audio Overview in NotebookLM. I listened to the AI-generated conversation between two hosts discussing my research and sources.
 
-![alt text](<스크린샷 2026-04-02 오후 5.39.29.png>)
+![alt text](week4-17.png)
 *(Figure 17. Screenshot of the NotebookLM: Audio)*
 
 **1. What surprised you the most?**\
@@ -203,7 +204,7 @@ For this week’s independent study, I selected a qualitative dataset containing
 
 The reasons behind my selection of this dataset are deeply rooted in my personal background. As someone who completed the New Zealand secondary education system just a few years ago, I have always been fascinated by the practical dynamics between high achieving students and the teachers who drive their growth. What makes this data particularly special to me is that it refuses to be confined to mere academic scores. Instead, it captures vivid, qualitative records of how students subjectively define success and the real-life interactions that enrich their learning experiences.
 
-![alt text](<스크린샷 2026-04-02 오후 7.29.01.png>)
+![alt text](week4-18.png)
 *(Figure 18. Screenshot of the Dataset: The attributes of high achieving secondary school students and their teachers)*
 
 --- 
