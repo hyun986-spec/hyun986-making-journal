@@ -21,19 +21,21 @@ Despite this, I realised that these tools allow me to create the results I want,
 
 
 ## Thematic Focus and Data Source
+
 For this design project, I decided to focus on an everyday behaviour that I have recently become curious about. Although people constantly use smartphones and seem to be always connected, I noticed that many do not reply to messages immediately or intentionally delay their responses.
 
 Even though digital environments increase connectivity, actual interaction can become reduced or disconnected. On the surface, relationships appear continuous, but people often communicate selectively or avoid interaction.
 
 In this project, I explore the behaviour of reading messages without replying as a form of data. I see this not simply as a habit or laziness, but as a way people manage their relationships. By visualising this behaviour, I aim to reveal communication patterns that people may not notice.
 
-A future scenario I considered is one where everyday communication behaviours are increasingly recorded and made visible through data. Simple actions such as how often someone checks messages or how quickly they respond could become indicators of communication style.
+A future scenario I considered is one where everyday communication behaviours are increasingly recorded and made visible through data. Simple actions, such as how often someone checks messages or how quickly they respond, could become indicators of communication style.
 
 Rather than collecting complex datasets, I will gather simple data from design students, focusing on whether they have ignored messages and how many times. The data will be collected anonymously and used as a static dataset, with some simulated data added if needed.
 
 Instead of presenting the data as numbers alone, I aim to translate it into a clear and intuitive visual form so that each person’s behaviour can be understood at a glance. This encourages viewers to reflect on their own communication habits.
 
 This project is connected to Data Humanism, focusing on everyday behavioural data and creating relatable visualisations. It will be presented as a physical installation so the audience can experience the data in space rather than just on a screen.
+
 
 <br>
 
