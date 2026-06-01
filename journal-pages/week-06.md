@@ -203,7 +203,7 @@ I found that while this reference helped me imagine the specific circuitry of a 
 <br>
 
 ## 3. Project Planning and Skills Roadmap
-
+---
 ### 3.1 What do I need to make?
 I need to create a web-based, two-stage 3D interactive data visualisation that explores the digital fatigue of 50 design students through their unread messages and communication avoidance. Inspired by 'Multitap Text', the initial interface will feature a realistic smartphone screen layout equipped with a functional numeric keypad from 1 to 0, allowing viewers to type a specific number into the entry window and press 'Enter' to look up a student's profile. Once submitted, the screen will fluidly transition into an immersive 3D canvas where particle-based human forms are displayed, with the exact number of these silhouettes dynamically determined by the selected student's data—specifically representing the number of people currently left unread by that individual. Based on the elastic particle system of 'Don't touch me', these human structures will dramatically shatter and scatter into fragmented grains when the user's cursor approaches, symbolising the intense psychological pressure of digital communication and the breaking of social relationships, and will organically recombine once the cursor moves away. By combining this interactive numeric entry screen with a deeply visceral human particle visualisation, I will build a compelling digital environment that makes both the collective and individual weight of digital fatigue visible and testable.
 
@@ -228,11 +228,13 @@ Although I have currently decided to move in an online interactive direction, I 
 <br>
 
 ## 1. Consultation Reflection
+---
 After discussing my proposal with my tutor, I realised that I still have not fully decided on the final direction of the project. However, the discussion helped me think more specifically about how I will collect and manage my data. I was not able to ask all of my questions during the meeting, so I plan to ask the remaining questions next week. For now, I have decided to include participant consent in the survey process and collect all responses anonymously from the 50 design students in my class. The feedback also made me realise that I need to further develop the critical framework of my research. At first, I thought that reading a message and not replying was simply a matter of being lazy or a common communication habit. However, after thinking about it more deeply, I found it interesting that this behaviour could also be connected to avoidance, relationship management, social expectations, or even power dynamics between people. Because of this, I would like to move beyond simply showing the phenomenon of ignored messages and further explore what this behaviour might reveal about contemporary digital communication. At the moment, I am leaning more towards an online interactive outcome. However, I still feel reluctant to completely let go of the idea of a 3D printed physical output. Since both directions have their own advantages and disadvantages, I plan to ask my tutor the remaining questions next week before making a final decision.
 
 <br>
 
 ## 2. Technical Skill Building
+---
 I find that according to the skills roadmap, my highest priority technical gap is exploring the tools needed for both web coding and physical hardware to evaluate which path is more feasible for my project. Honestly, I do not know how to write code manually from scratch. Therefore, finding the right AI tools for vibe coding is not just a shortcut for me, but an essential step to bridge my fundamental technical gap. My goal this week is to identifying a specific AI tool that thoroughly understands p5.js canvas structures and vector arrays so that I can guide the development effectively through conversational instructions.
 ![alt text](../assets/week-06/week6-5.png)
 *(Source: AI Prompt for p5js Particle Grid by hyun986)*
@@ -245,30 +247,57 @@ At the same time, I did some online research and discovered Arduino, an open sou
 <br>
 
 ## 3. Initial Concept Sketch
-
+---
 <iframe src="https://editor.p5js.org/hyun986/full/t6jPYnEWk9" height="600" width="600"></iframe>
 
 *(Source: Particle Grid via Gemini by hyun986, available on editor.p5js.org)* <br><br>
 
 <iframe src="https://editor.p5js.org/hyun986/full/8wdGN3-YF" height="600" width="600"></iframe>
 
-*(Source: Particle System via ChatGPT by hyun986, available on editor.p5js.org)* <br><br>
+*(Source: Particle Grid via ChatGPT by hyun986, available on editor.p5js.org)* <br><br>
+
+<iframe src="https://editor.p5js.org/hyun986/full/73AmfagmV" height="600" width="600"></iframe>
+
+*(Source: Particle Grid via Codex by hyun986, available on editor.p5js.org)* <br><br>
 
 <br>
 
 # References
 ---
-https://openprocessing.org/browse?q=&time=thisMonth&type=hearts&offset=0#
-https://openprocessing.org/@alwayscodingsomething/2899558
-https://openprocessing.org/@ntsutae/2845802
-https://openprocessing.org/@noel/2812705
-https://openprocessing.org/@u110137/2703303
-https://openprocessing.org/@okazz/2631454
-https://openprocessing.org/@raizada/2654309
+## Web-based Interactive Coding
+
+- OpenProcessing Platform. (n.d.) Creative Coding Community Browser and Hearted Sketches. Available at: https://openprocessing.org/browse?q=&time=thisMonth&type=hearts&offset=0#
+
+- alwayscodingsomething. (n.d.) Interactive Sketch Showcase on OpenProcessing. Available at: https://openprocessing.org/@alwayscodingsomething/2899558
+
+- ntsutae. (n.d.) Interactive Sketch Showcase on OpenProcessing. Available at: https://openprocessing.org/@ntsutae/2845802
+
+- noel. (n.d.) Interactive Sketch Showcase on OpenProcessing. Available at: https://openprocessing.org/@noel/2812705
+
+- u110137. (n.d.) Interactive Sketch Showcase on OpenProcessing. Available at: https://openprocessing.org/@u110137/2703303
+
+- okazz. (n.d.) Interactive Sketch Showcase on OpenProcessing. Available at: https://openprocessing.org/@okazz/2631454
+
+- raizada. (n.d.) Interactive Sketch Showcase on OpenProcessing. Available at: https://openprocessing.org/@raizada/2654309
 
 
-https://www.printables.com/model/91260-mobile-phone-toy
-https://www.instructables.com/Arduino-SPI-7-Bi-color-LED-Matrix-Scrolling-Text-D/
+## Physical Hardware and 3D Modelling
 
-https://www.udemy.com/share/104gCs/
+- Marin. (2024) Mobile Phone Toy 3D Printing Model on Printables. Available at: https://www.printables.com/model/91260-mobile-phone-toy
 
+- Instructables. (n.d.) Arduino SPI 7 Bi colour LED Matrix Scrolling Text Display Guide. Available at: https://www.instructables.com/Arduino-SPI-7-Bi-color-LED-Matrix-Scrolling-Text-D/
+
+## Technical Education Course
+
+- Renard, E. (2026) Arduino For Beginners Video Course on Udemy. Available at: https://www.udemy.com/share/104gCs/
+
+## AI Usage Statement
+
+- OpenAI. (2026). ChatGPT (GPT-5.5) [Large language model]. https://chatgpt.com
+
+- Google. (2026). Gemini [Large language model]. https://gemini.google.com
+
+- OpenAI. (2026). Codex [AI coding model]. https://openai.com
+
+
+ChatGPT (GPT-5.5), Google Gemini, and OpenAI Codex were used only for coding assistance during the development of the p5.js prototype. These tools helped generate and explain example code for experimentation and testing. All final implementation and project decisions were completed by me.
