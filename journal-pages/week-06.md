@@ -237,7 +237,10 @@ After discussing my proposal with my tutor, I realised that I still have not ful
 <br>
 
 ## 3. Initial Concept Sketch
-<iframe src="https://editor.p5js.org/hyun986/full/t6jPYnEWk9"></iframe>
+
+
+<iframe src="https://editor.p5js.org/hyun986/full/t6jPYnEWk9" height="600" width="600"></iframe>
+
 
 <br>
 
