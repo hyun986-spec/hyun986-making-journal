@@ -233,17 +233,42 @@ After discussing my proposal with my tutor, I realised that I still have not ful
 <br>
 
 ## 2. Technical Skill Building
+I find that according to the skills roadmap, my highest priority technical gap is exploring the tools needed for both web coding and physical hardware to evaluate which path is more feasible for my project. Honestly, I do not know how to write code manually from scratch. Therefore, finding the right AI tools for vibe coding is not just a shortcut for me, but an essential step to bridge my fundamental technical gap. My goal this week is to identifying a specific AI tool that thoroughly understands p5.js canvas structures and vector arrays so that I can guide the development effectively through conversational instructions.
+![alt text](../assets/week-06/week6-5.png)
+*(Source: AI Prompt for p5js Particle Grid by hyun986)*
+
+At the same time, I did some online research and discovered Arduino, an open source microcontroller hardware and software platform that makes it easy to control components like LEDs, sensors, and motors. I am currently watching several video tutorials to understand how the Arduino software interacts with the physical components. Honestly, I find grasping these hardware concepts much slower and more challenging compared to web based platforms. However, since this is still the initial stage, I am continuously evaluating the difficulty level. After watching more detailed instructional videos and discussing these challenges with my tutor next week, I plan to definitively choose one specific direction to finalise my project path.
+
+![alt text](../assets/week-06/week6-6.png)
+*(Source: Arduino For Beginners by Edouard Renard, available on Udemy.com)*
 
 <br>
 
 ## 3. Initial Concept Sketch
 
-
 <iframe src="https://editor.p5js.org/hyun986/full/t6jPYnEWk9" height="600" width="600"></iframe>
 
+*(Source: Particle Grid via Gemini by hyun986, available on editor.p5js.org)* <br><br>
+
+<iframe src="https://editor.p5js.org/hyun986/full/8wdGN3-YF" height="600" width="600"></iframe>
+
+*(Source: Particle System via ChatGPT by hyun986, available on editor.p5js.org)* <br><br>
 
 <br>
 
 # References
 ---
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
+https://openprocessing.org/browse?q=&time=thisMonth&type=hearts&offset=0#
+https://openprocessing.org/@alwayscodingsomething/2899558
+https://openprocessing.org/@ntsutae/2845802
+https://openprocessing.org/@noel/2812705
+https://openprocessing.org/@u110137/2703303
+https://openprocessing.org/@okazz/2631454
+https://openprocessing.org/@raizada/2654309
+
+
+https://www.printables.com/model/91260-mobile-phone-toy
+https://www.instructables.com/Arduino-SPI-7-Bi-color-LED-Matrix-Scrolling-Text-D/
+
+https://www.udemy.com/share/104gCs/
+
