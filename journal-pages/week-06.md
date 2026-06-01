@@ -12,6 +12,7 @@ layout: default
 2. Visual Research and Precedent Study
 3. Project Planning and Skills Roadmap
 
+<br>
 
 ## 1. Data Exploration
 ---
@@ -19,13 +20,13 @@ My data source is based on everyday communication behaviour, specifically focusi
 
 I have developed two possible directions for visualising this data: 
 
-### 1. Online interactive outcome
+#### 1. Online interactive outcome
 ![alt text](../assets/week-06/week6-1.png)
 *(Image 1: Online interactive outcome)* 
 
 The first is an online interactive outcome, where all participants’ data can be displayed together in a clear and accessible format. For example, users could view an overview of all data and click on individual entries to reveal more detailed information. This format also opens up the possibility of expanding the dataset in the future, such as including time-based data or categories of unread messages.
 
-### 2. 3D printed physical output
+#### 2. 3D printed physical output
 
 ![alt text](../assets/week-06/week6-2.png)
 *(Image 2: 3D printed physical output)*
@@ -49,9 +50,10 @@ One limitation of this dataset is that it relies on self-reporting, which may le
 
 #### 1. Tone.js Nuclear Fission
 
-Link: https://openprocessing.org/@alwayscodingsomething/2899558
+<a href="https://openprocessing.org/@alwayscodingsomething/2899558"> 
+Tone.js Nuclear Fission Link</a>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g51HRziXplw?si=QPENXz2OOc6IcRU6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g51HRziXplw?si=n7TKIwFGOTMjwF6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 What attracts me to it? <br>
@@ -64,36 +66,16 @@ I want to reference the sound-responsive elements and the mechanism where the da
 Does it change or reinforce my direction? <br>
 It suggests a direction to express the pressure of unread messages through the visual metaphor of multiplication. It could be considered as a strong interactive method to visualize the heavy weight of growing data on an online screen.
 
+<br>
+
+#### 2. Verlet Particle Simulation
+
+<a href="https://openprocessing.org/@alwayscodingsomething/2899558"> 
+Verlet Particle Simulation Link</a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wxKSfhBJgZQ?si=lxJ2Q8g4fZ2hjkdJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-What attracts me to it?
-
-What will I take into my own work?
-Does it change or reinforce my direction?
-
-
-What attracts me to it?
-
-What will I take into my own work?
-Does it change or reinforce my direction?
-
-
-What attracts me to it?
-
-What will I take into my own work?
-Does it change or reinforce my direction?
-
-
-What attracts me to it?
-
-What will I take into my own work?
-Does it change or reinforce my direction?
-
-
-What attracts me to it?
-
-What will I take into my own work?
-Does it change or reinforce my direction?
 
 
 
