@@ -3,17 +3,18 @@ layout: default
 ---
 
 # Week 06
-
+---
 [← Back to Home](../index.md)
 
 # In-Class Activities
+---
 1. Data Exploration
 2. Visual Research and Precedent Study
 3. Project Planning and Skills Roadmap
 
 
 ## 1. Data Exploration
-
+---
 My data source is based on everyday communication behaviour, specifically focusing on the act of intentionally leaving messages unread. This project aims to explore not only the behaviour itself but also the psychological aspects behind it. The data will be collected from approximately 50 design students in this class through a simple survey. This group was chosen because participants are easily accessible within the same class environment. Participants will be asked whether they currently have any messages they are intentionally leaving unread and, if so, how many messages they are leaving unopened at that moment. (The number of participants may be adjusted if necessary.) At this stage, I plan to collect a minimal dataset focused on the presence and quantity of unread messages, keeping the structure simple and manageable.
 
 I have developed two possible directions for visualising this data: 
@@ -43,14 +44,14 @@ One limitation of this dataset is that it relies on self-reporting, which may le
 <br>
 
 ## 2. Visual Research and Precedent Study
-
+---
 ### Online interactive outcome
 
 #### 1. Tone.js Nuclear Fission
 
 Link: https://openprocessing.org/@alwayscodingsomething/2899558
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QpPWw9gWL2E?si=lkL8AonZKj6GeK7r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g51HRziXplw?si=QPENXz2OOc6IcRU6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 What attracts me to it? <br>
