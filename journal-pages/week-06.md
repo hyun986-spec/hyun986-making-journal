@@ -47,11 +47,12 @@ One limitation of this dataset is that it relies on self-reporting, which may le
 ## 2. Visual Research and Precedent Study
 ---
 ### Online interactive outcome
+I explored various examples on the OpenProcessing website to gain visual inspiration for online interactive data visualization. <a href="https://openprocessing.org/browse?q=&time=thisMonth&type=hearts&offset=0#"> 
+OpenProcessing website</a>
 
+<br>
 
-#### 1. Tone.js Nuclear Fission
-
-<a href="https://openprocessing.org/@alwayscodingsomething/2899558"> 
+### 1. Tone.js Nuclear Fission <a href="https://openprocessing.org/@alwayscodingsomething/2899558"> 
 Tone.js Nuclear Fission Link</a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g51HRziXplw?si=n7TKIwFGOTMjwF6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -68,7 +69,7 @@ It suggests a direction to express the pressure of unread messages through the v
 
 <br>
 
-#### 2. Verlet Particle Simulation
+### 2. Verlet Particle Simulation
 
 <a href="https://openprocessing.org/@ntsutae/2845802">
 Verlet Particle Simulation Link</a>
@@ -87,7 +88,7 @@ I believe this reference can help me untangle the psychological distance and avo
 
 <br>
 
-#### 3. Don't Touch Me
+### 3. Don't Touch Me
 
 <a href="https://openprocessing.org/@noel/2812705"> 
 Don't Touch Me Link</a>
@@ -106,7 +107,7 @@ I learned that the psychology of avoiding communication can be attractively expr
 
 <br>
 
-#### 4. Multitap Text
+### 4. Multitap Text
 
 <a href="https://openprocessing.org/@u110137/2703303"> 
 Multitap Text Link</a>
@@ -125,7 +126,7 @@ I found this to be the definitive turning point to pivot entirely toward an onli
 
 <br>
 
-#### 5. 250430a
+### 5. 250430a
 
 <a href="https://openprocessing.org/@okazz/2631454"> 
 250430a Link</a>
@@ -144,7 +145,7 @@ I saw the potential to absorb the limitations of physical LEDs into a web grid. 
 
 <br>
 
-#### 6. V6 Puppet
+### 6. V6 Puppet
 
 <a href="https://openprocessing.org/@raizada/2654309"> 
 V6 Puppet Link</a>
@@ -163,7 +164,11 @@ I discovered new technical possibilities to move beyond simple mouse clicks and 
 
 <br>
 
-#### 7. Verlet Particle Simulation
+
+### Physical output
+
+
+### 7. Verlet Particle Simulation
 
 <a href="https://openprocessing.org/@alwayscodingsomething/2899558"> 
 Verlet Particle Simulation Link</a>
@@ -173,20 +178,12 @@ Verlet Particle Simulation Link</a>
 
 <br>
 
-#### 8. Verlet Particle Simulation
+### 8. Verlet Particle Simulation
 
 <a href="https://openprocessing.org/@alwayscodingsomething/2899558"> 
 Verlet Particle Simulation Link</a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wxKSfhBJgZQ?si=lxJ2Q8g4fZ2hjkdJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
-
-
-### Physical output
-
-
 
 
 ## 3. Project Planning and Skills Roadmap
