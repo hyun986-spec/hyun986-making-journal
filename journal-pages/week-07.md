@@ -147,12 +147,16 @@ Overall, this week was focused more on data collection and refining the project 
 
 ![alt text](../assets/week-07/week7-p1.png)
 *(Figure: Presentation Slide 1)*
+
 ![alt text](../assets/week-07/week7-p2.png) 
 *(Figure: Presentation Slide 2)*
+
 ![alt text](../assets/week-07/week7-p3.png) 
 *(Figure: Presentation Slide 3)*
+
 ![alt text](../assets/week-07/week7-p4.png) 
 *(Figure: Presentation Slide 4)*
+
 ![alt text](../assets/week-07/week7-p5.png)
 *(Figure: Presentation Slide 5)*
 
