@@ -206,10 +206,12 @@ Although I have currently decided to move in an online interactive direction, I 
 ### 3.3 What are my next steps?
 To gather foundational data for the project, I will design a primary research survey tailored for design students. The questionnaire is structured with an explicit participant assent section at the beginning to secure informed consent and guarantee complete anonymity. The core survey items focus on unread messaging behaviours through the following framework:
 
+<dl>
 <dt>1. There are currently received messages that remain unread and unanswered.
 <dd>- Follow up question: How many unread messages do you currently have?
 <dd>- Optional open response: What is the primary reason for leaving them unread? (e.g. lacking the time to respond due to a busy schedule).
 <dt>2. There are currently no unread or unanswered messages. <br> <br>
+<dl>
 
 To develop the project deeply into a single, cohesive direction, my immediate next step is to consult with my tutor regarding the final output medium. I will discuss whether to pursue a screen based application or a physical hardware setup to determine which path is more viable for the final showcase. Once this strategic decision is made, I will set up a local p5.js development environment to initiate simple interactive experiments, focusing on how numerical data inputs from the survey can dynamically alter foundational particle densities on the canvas. This will establish a secure and robust foundation before distributing the final survey to 50 design students.
 
