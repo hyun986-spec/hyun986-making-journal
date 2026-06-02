@@ -116,6 +116,7 @@ My current project focuses on an individual’s communication avoidance through 
 ## 1. Project Development & Skill Building
 
 ### Addressing the Technical Gaps Identified in the Week 6 Roadmap
+--- 
 
 In Week 6, I planned to first discuss my questions with my tutor and then decide whether to pursue a physical outcome or an online interactive outcome.
 
