@@ -50,7 +50,7 @@ One limitation of this dataset is that it relies on self-reporting, which may le
 I explored various examples on the <a href="https://openprocessing.org/browse?q=&time=thisMonth&type=hearts&offset=0#"> 
 OpenProcessing website</a> to gain visual inspiration for online interactive data visualisation.
 
-<br>
+
 
 ### 1. Tone.js Nuclear Fission 
 
@@ -61,11 +61,9 @@ Tone.js Nuclear Fission Link</a>
 
 
 **What draws you to this source?** <br>
-I was impressed by the visual effect where particles multiply exponentially every time the screen is touched, as well as its harmony with the sound. I felt this example is perfect for expressing the digital fatigue of modern people, where accumulating unread messages grow out of control.
-
+I was impressed by the visual effect where particles multiply exponentially every time the screen is touched, as well as its harmony with the sound. I felt this example is perfect for expressing the digital fatigue of modern people, where accumulating unread messages grow out of control. <br>
 **What will I take into my own work?** <br>
-I want to reference the sound-responsive elements and the mechanism where the data multiplies and expands like cell division whenever the user interacts with the screen. Applying this to my work, it could be a possibility to show the number of unread messages data multiplying like cell division.
-
+I want to reference the sound-responsive elements and the mechanism where the data multiplies and expands like cell division whenever the user interacts with the screen. Applying this to my work, it could be a possibility to show the number of unread messages data multiplying like cell division.<br>
 **Does it change or reinforce my direction?** <br>
 It suggests a direction to express the pressure of unread messages through the visual metaphor of multiplication. It could be considered as a strong interactive method to visualise the heavy weight of growing data on an online screen.
 
@@ -80,11 +78,9 @@ Verlet Particle Simulation Link</a>
 
 
 **What draws you to this source?** <br>
-I found the physics simulation highly appealing, where particles intentionally avoid and scatter away when the mouse cursor approaches. I thought this is very similar to the avoidance behaviour of modern people, who purposely ignore and avoid communication from others even though they know a message has arrived.
-
+I found the physics simulation highly appealing, where particles intentionally avoid and scatter away when the mouse cursor approaches. I thought this is very similar to the avoidance behaviour of modern people, who purposely ignore and avoid communication from others even though they know a message has arrived. <br>
 **What will I take into my own work?** <br>
-I want to incorporate the interactive physics feedback that seems to push away and escape from the user's movement. Applying this to my work, it could be a possibility to replace the cursor shape with a message icon.
-
+I want to incorporate the interactive physics feedback that seems to push away and escape from the user's movement. Applying this to my work, it could be a possibility to replace the cursor shape with a message icon.<br>
 **Does it change or reinforce my direction?** <br>
 I believe this reference can help me untangle the psychological distance and avoidance tendencies in human relationships through mouse interaction. I can develop this into an interesting path that allows the audience to physically experience the avoidance of communication.
 
@@ -99,11 +95,9 @@ Don't Touch Me Link</a>
 
 
 **What draws you to this source?** <br>
-Like the previous example, the particles scatter away from the mouse cursor, but I found it fascinating how they have an elastic property to maintain their original circular shape without any gravity. It was impressive to see them break apart when the cursor approaches and then return to their original shape and become isolated again when the cursor moves away.
-
+Like the previous example, the particles scatter away from the mouse cursor, but I found it fascinating how they have an elastic property to maintain their original circular shape without any gravity. It was impressive to see them break apart when the cursor approaches and then return to their original shape and become isolated again when the cursor moves away.<br>
 **What will I take into my own work?** <br>
-I want to reference this self-maintaining property and implement the basic shape of the particles as a 'human silhouette' instead of a circle. I am planning an interaction where the human shape shatters to avoid contact from others, represented by the mouse, which I plan to change into a message icon, and then pieces back together into the form of an isolated individual once the mouse leaves.
-
+I want to reference this self-maintaining property and implement the basic shape of the particles as a 'human silhouette' instead of a circle. I am planning an interaction where the human shape shatters to avoid contact from others, represented by the mouse, which I plan to change into a message icon, and then pieces back together into the form of an isolated individual once the mouse leaves.<br>
 **Does it change or reinforce my direction?** <br>
 I learned that the psychology of avoiding communication can be attractively expressed through the visual narrative of destruction and restoration of a shape. I can use this to try a psychological visual effect on an online interactive outcome, where the human shape organically deconstructs and recombines based on the user's mouse movements.
 
@@ -118,11 +112,9 @@ Multitap Text Link</a>
 
 
 **What draws you to this source?** <br>
-I was deeply impressed to see a phone model that I had originally planned to build as a physical 3D object, created digitally on a web browser screen and functioning smoothly at the click of a button.
-
+I was deeply impressed to see a phone model that I had originally planned to build as a physical 3D object, created digitally on a web browser screen and functioning smoothly at the click of a button.<br>
 **What will I take into my own work?** <br>
-I want to incorporate the digital 3D spatial layout and dimensional text design techniques that respond three-dimensionally to mouse movements within a web screen.
-
+I want to incorporate the digital 3D spatial layout and dimensional text design techniques that respond three-dimensionally to mouse movements within a web screen.<br>
 **Does it change or reinforce my direction?** <br>
 I found this to be the definitive turning point to pivot entirely towards an online interactive outcome between my two original options of an online vs. physical 3D project. Through previous assignments in my DES 240 class, I learned vibe coding and became comfortable enough with software implementation, but I had a lot of concerns because physical fabrication was completely new to me. I felt realistic limitations in sourcing the necessary LED components and building a hardware control system from scratch within a limited timeframe. This reference gave me the confidence that I can achieve the same tactile depth and even stronger interaction in a web environment without needing a complex offline structure.
 
@@ -137,11 +129,9 @@ I found this to be the definitive turning point to pivot entirely towards an onl
 
 
 **What draws you to this source?** <br>
-I was impressed by how countless lights and dots move repeatedly to form a single pattern. In particular, I found it fascinating that while the individual elements are simple, they collectively create a complex and captivating visual effect.
-
+I was impressed by how countless lights and dots move repeatedly to form a single pattern. In particular, I found it fascinating that while the individual elements are simple, they collectively create a complex and captivating visual effect.<br>
 **What will I take into my own work?** <br>
-I want to bring the idea of individual data representation, which I originally planned to implement with physical LEDs, into an online grid layout, borrowing the structure to display the data of the 50 design students I surveyed neatly on a single screen.
-
+I want to bring the idea of individual data representation, which I originally planned to implement with physical LEDs, into an online grid layout, borrowing the structure to display the data of the 50 design students I surveyed neatly on a single screen.<br>
 **Does it change or reinforce my direction?** <br>
 I saw the potential to absorb the limitations of physical LEDs into a web grid. I can use this to develop my project to visualise the collected data from 50 participants into a clean, organised 2D or 3D dashboard format that simultaneously displays both collective and individual data.
 
@@ -156,11 +146,9 @@ V6 Puppet Link</a>
 
 
 **What draws you to this source?** <br>
-I found the interaction fascinating, where computer vision technology tracks the user's joints and links them to a digital puppet's movements in real time.
-
+I found the interaction fascinating, where computer vision technology tracks the user's joints and links them to a digital puppet's movements in real time.<br>
 **What will I take into my own work?** <br>
-Applying this idea, I am considering a visual effect where the camera recognizes the user's body, and a human-shaped graphic is helplessly dragged around, tied to heavy objects or strings that represent the number of unread messages. Since this is not yet finalised, I might try this approach of linking the audience's physical movements and data as a potential option for my project.
-
+Applying this idea, I am considering a visual effect where the camera recognizes the user's body, and a human-shaped graphic is helplessly dragged around, tied to heavy objects or strings that represent the number of unread messages. Since this is not yet finalised, I might try this approach of linking the audience's physical movements and data as a potential option for my project.<br>
 **Does it change or reinforce my direction?** <br>
 I discovered new technical possibilities to move beyond simple mouse clicks and explore interaction driven by body tracking, such as using a camera or sound. To maximise the immersion of the piece, I could explore this as a completely new narrative approach that integrates the audience's real-time physical data.
 
@@ -176,11 +164,9 @@ I researched 3D-printed smartphone models and Arduino LED displays to explore ph
 *(Source: Mobile Phone Toy by Neil, available on Printables.com)*
 
 **What draws you to this source?** <br>
-I was drawn to this model while searching for a familiar, 3D-printed phone structure that could intuitively contain my data, since my data source is closely related to smartphone messages. I felt that using a minimal model like this, instead of an actual smartphone, would allow the focus to remain entirely on the data visualisation itself.
-
+I was drawn to this model while searching for a familiar, 3D-printed phone structure that could intuitively contain my data, since my data source is closely related to smartphone messages. I felt that using a minimal model like this, instead of an actual smartphone, would allow the focus to remain entirely on the data visualisation itself.<br>
 **What will I take into my own work?** <br>
-I wanted to reference the form of this toy smartphone to leave the screen area hollow, allowing me to install an LED light system connected to the coding techniques I explored in the DES 240 class. Specifically, I imagined a physical output where the lights inside the phone model would blink or change colours based on the number of unread messages.
-
+I wanted to reference the form of this toy smartphone to leave the screen area hollow, allowing me to install an LED light system connected to the coding techniques I explored in the DES 240 class. Specifically, I imagined a physical output where the lights inside the phone model would blink or change colours based on the number of unread messages.<br>
 **Does it change or reinforce my direction?** <br>
 I found that while this reference helped me imagine the specific form of my original physical output idea, it ultimately served as the reason to pivot entirely towards an online interactive outcome. I realised that sourcing and assembling a hardware control system inside this kind of physical model poses too many technical and realistic limitations within a restricted timeframe as a beginner.
 
@@ -192,11 +178,9 @@ I found that while this reference helped me imagine the specific form of my orig
 *(Source: Arduino Smart LED Matrix Display by Instructables, available on Instructables.com)*
 
 **What draws you to this source?** <br>
-I was fascinated by the physical computing structure that takes sensor or external data and controls LED blinking and text patterns in real time. I found it highly relevant to my initial idea because it instantly translates unread messages or notifications into physical light signals in a real-world space.
-
+I was fascinated by the physical computing structure that takes sensor or external data and controls LED blinking and text patterns in real time. I found it highly relevant to my initial idea because it instantly translates unread messages or notifications into physical light signals in a real-world space.<br>
 **What will I take into my own work?** <br>
-I wanted to reference this device by assembling an Arduino and LED components to create a physical notification object, where the lights would intensify or flash like a red warning light as the number of unread messages grows. I considered an approach to visualise the average digital fatigue of the 50 students into a single physical machine.
-
+I wanted to reference this device by assembling an Arduino and LED components to create a physical notification object, where the lights would intensify or flash like a red warning light as the number of unread messages grows. I considered an approach to visualise the average digital fatigue of the 50 students into a single physical machine.<br>
 **Does it change or reinforce my direction?** <br>
 I found that while this reference helped me imagine the specific circuitry of a physical output, it ultimately served as another reason to shift towards an online interactive outcome. I realised that programming hardware and handling an LED matrix requires additional electronics knowledge and complex assembly beyond the software coding I learned in DES 240. Given the technical learning curve for a beginner and the limited timeframe, I became confident that developing the project within a web browser would allow me to achieve compelling 3D depth and richer interactivity much more efficiently.
 
@@ -216,6 +200,19 @@ I need to create a web-based, two-stage 3D interactive data visualisation that e
 
 3. **Considering a 3D Printed Physical Output:**
 Although I have currently decided to move in an online interactive direction, I still really like the idea of creating a 3D printed physical output, so I feel it would be a waste to completely let it go. I plan to ask my lecturer the questions I have prepared and get feedback before making a final decision. Rather than giving up on the idea straight away, I want to explore whether it is still a realistic option.
+
+<br>
+
+### 3.3 What are my next steps?
+To gather foundational data for the project, I will design a primary research survey tailored for design students. The questionnaire is structured with an explicit participant assent section at the beginning to secure informed consent and guarantee complete anonymity. The core survey items focus on unread messaging behaviours through the following framework:
+
+<dt>1. There are currently received messages that remain unread and unanswered.
+<dd>- Follow up question: How many unread messages do you currently have?
+<dd>- Optional open response: What is the primary reason for leaving them unread? (e.g. lacking the time to respond due to a busy schedule).
+<dt>2. There are currently no unread or unanswered messages. <br> <br>
+
+To develop the project deeply into a single, cohesive direction, my immediate next step is to consult with my tutor regarding the final output medium. I will discuss whether to pursue a screen based application or a physical hardware setup to determine which path is more viable for the final showcase. Once this strategic decision is made, I will set up a local p5.js development environment to initiate simple interactive experiments, focusing on how numerical data inputs from the survey can dynamically alter foundational particle densities on the canvas. This will establish a secure and robust foundation before distributing the final survey to 50 design students.
+
 
 <br>
 
