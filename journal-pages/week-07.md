@@ -64,8 +64,6 @@ Virtual Data Mapping:
 - Female Group (Simulated Data = 85): Represents a state of high intentional avoidance and notification pressure.
 - Male Group (Simulated Data = 18): Represents a state of passive detachment or neglect due to lower baseline communication investment.
 
-<br>
-
 ### 2. Prototype 1
 
 <iframe src="https://editor.p5js.org/hyun986/full/duyGyqZnV" height="600" width="400"></iframe>
@@ -74,14 +72,8 @@ Virtual Data Mapping:
 
 To quickly test the proposed concept and interaction mechanics, I developed an initial web-based prototype with the assistance of Google Gemini.
 
-<br>
-
 ![alt text](../assets/week-07/week7-3.png)
-
 *(Figure. Prompt development process for Prototype 1 using Google Gemini)*
-
-
-<br>
 
 ### 3. Prototype 2
 
@@ -97,10 +89,7 @@ To address the issues identified in Prototype 1, I revised the interaction logic
 - **Refined Human Silhouette:** Redesigned the human figure with clearer and more symmetrical body shapes, including distinct shirt and skirt forms.
 - **Enhanced Particle Visibility:** Replaced small symbol-based particles with larger solid circular particles to improve clarity and strengthen the visual impact of the interaction.
 
-<br>
-
 ![alt text](../assets/week-07/week7-4.png)
-
 *(Figure. Prompt development process for Prototype 2 using Google Gemini)*
 
 <br>
