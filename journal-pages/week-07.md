@@ -55,7 +55,7 @@ On the other hand, the positive feedback regarding the smartphone keypad interfa
 ---
 
 ### 1. Research & Hypothesis
-Before collecting primary data, secondary research was conducted to analyze gender differences in mobile communication styles and to establish the core project hypothesis. According to academic literature on mediated communication (Penn State & ResearchGate Study, 2013), women place a significantly higher value on mobile messaging and social media to maintain emotional connections and relationships compared to men.
+Before collecting primary data, secondary research was conducted to analyze gender differences in mobile communication styles and to establish the core project hypothesis. According to academic literature on mediated communication (Kimbrough et al., 2013), women place a significantly higher value on mobile messaging and social media to maintain emotional connections and relationships compared to men.
 
 Project Hypothesis: 
 Building upon the fact that women prioritize messaging more deeply, this project proposes a unique hypothesis: "The high importance and psychological obligation women place on communication will paradoxically trigger digital fatigue, making them more likely than men to deliberately leave messages unread and intentionally delay replies (intentional unread avoidance) to protect their personal boundaries."
@@ -154,3 +154,18 @@ Overall, this week was focused more on data collection and refining the project 
 *(Figure: Presentation Slide 4)*
 ![alt text](../assets/week-07/week7-p5.png)
 *(Figure: Presentation Slide 5)*
+
+<br>
+
+# References
+---
+Kimbrough, A. M., Guadagno, R. E., Muscanell, N. L., & Dill, J. (2013). Gender differences in mediated communication: Women connect more than do men. Computers in Human Behavior, 29(3), 896–900. https://doi.org/10.1016/j.chb.2012.12.005
+
+### AI Usage Statement
+
+- Google. (2026). Gemini [Large language model]. https://gemini.google.com
+
+- OpenAI. (2026). Codex [AI coding model]. https://openai.com
+
+
+Google Gemini and OpenAI Codex were used only for coding assistance during the development of the p5.js prototype. These tools helped generate and explain example code for experimentation and testing. All final implementation and project decisions were completed by me.
