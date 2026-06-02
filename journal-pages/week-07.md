@@ -111,13 +111,46 @@ My current project focuses on an individual’s communication avoidance through 
 
 # Independent Study
 ---
-Due to a severe cold, I was unable to attend the Week 7 class in person and therefore completed all in-class activities independently from home.
 
-1. Project Development & Skill Building
-2. Progress Report
+
+## 1. Project Development & Skill Building
+
+### Addressing the Technical Gaps Identified in the Week 6 Roadmap
+
+In Week 6, I planned to first discuss my questions with my tutor and then decide whether to pursue a physical outcome or an online interactive outcome.
+
+Last week, I spent time researching relevant tutorials and resources before discussing my prepared questions with my tutor. In particular, I looked into the technologies and software needed to create a physical outcome using components such as LEDs. However, after conducting further research, I felt that achieving the quality of final outcome I wanted would be difficult within the time remaining for the project. In addition, working with Arduino appeared to require not only hardware integration but also additional technical and making skills. Given the limited timeframe, I decided that learning these skills to a sufficient level would be challenging. As a result, I decided not to continue with the physical outcome direction and instead focus on developing an online interactive outcome from this week onward.
+
+To support this online interactive outcome approach, I compared several AI tools during Week 6 and found that Codex produced the most detailed and highest-quality results for the type of outcome I wanted to create. Therefore, I have decided to use Codex as my main development tool. However, I found that simply asking general questions did not always produce the desired results. Because of this, I plan to use Gemini to generate more detailed prompts that clearly describe the visual style and functionality I want, and then use those prompts within Codex to develop the project.
+
+### Project Development
+
+This week's in-class activities and Making Sprint provided me with many new perspectives and ideas for the project. In particular, sharing my sketches and receiving feedback helped me identify several issues that I had not previously noticed. This process encouraged me to think about possible improvements and alternative approaches.
+
+In addition, after the Making Sprint, I exchanged feedback with my partner Yeseul and gained further inspiration from discussing our outcomes. One idea that stood out to me was the possibility of visualising not only the impact of unread messages on an individual, but also the effects they may have on relationships and social distance between people. These discussions and reflections have provided several new directions that I would like to explore further as I continue developing the project.
+
+### Making Process
+
+During the Making Sprint, I mainly explored ideas without using real data. However, I realised that collecting actual data would be necessary in order to develop the project further. Because of this, I focused on data collection rather than outcome production this week.
+
+As the direction of my project has evolved, I have moved away from visualising each individual's data separately and have instead become more interested in comparing average data between male and female groups. As a result, I felt that the original target of 50 participants might not provide enough data for this approach. Therefore, I decided to collect an equal number of responses from male and female participants to improve the reliability of the analysis.
+
+To achieve this, I distributed an anonymous survey not only to DES240 students but also to other students within the Design programme. All participants were informed about the purpose of the research and provided consent before completing the survey. At this stage, I am still collecting responses and building the dataset.
+
+Overall, this week was focused more on data collection and refining the project direction than on producing the final outcome itself. Once sufficient data has been collected, I plan to begin creating the visualisations and developing the online interactive outcome next week.
 
 <br>
 
-## 1. Concept Sketches
+## 2. Progress Report
 ---
-### 1.1 Initial Concept Sketch
+
+![alt text](../assets/week-07/week7-p1.png)
+*(Figure: Presentation Slide 1)*
+![alt text](../assets/week-07/week7-p2.png) 
+*(Figure: Presentation Slide 2)*
+![alt text](../assets/week-07/week7-p3.png) 
+*(Figure: Presentation Slide 3)*
+![alt text](../assets/week-07/week7-p4.png) 
+*(Figure: Presentation Slide 4)*
+![alt text](../assets/week-07/week7-p5.png)
+*(Figure: Presentation Slide 5)*
