@@ -46,7 +46,7 @@ One limitation of this dataset is that it relies on self-reporting, which may le
 
 ## 2. Visual Research and Precedent Study
 ---
-### Online interactive outcome
+## Online interactive outcome
 I explored various examples on the <a href="https://openprocessing.org/browse?q=&time=thisMonth&type=hearts&offset=0#"> 
 OpenProcessing website</a> to gain visual inspiration for online interactive data visualisation.
 
@@ -155,7 +155,7 @@ I discovered new technical possibilities to move beyond simple mouse clicks and 
 <br>
 
 
-### Physical output
+## Physical output
 I researched 3D-printed smartphone models and Arduino LED displays to explore physical data visualisation, which ultimately helped me realise the technical limitations and shift towards a web-based outcome.
 
 ### 7. Mobile Phone Toy
