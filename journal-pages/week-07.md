@@ -53,10 +53,82 @@ On the other hand, the positive feedback regarding the smartphone keypad interfa
 
 ## 2. Making Sprint
 ---
-<iframe src="https://editor.p5js.org/hyun986/full/duyGyqZnV" height="500" width="350"></iframe>
+
+### 1. Research & Hypothesis
+Before collecting primary data, secondary research was conducted to analyze gender differences in mobile communication styles and to establish the core project hypothesis. According to academic literature on mediated communication (Penn State & ResearchGate Study, 2013), women place a significantly higher value on mobile messaging and social media to maintain emotional connections and relationships compared to men.
+
+Project Hypothesis: 
+Building upon the fact that women prioritize messaging more deeply, this project proposes a unique hypothesis: "The high importance and psychological obligation women place on communication will paradoxically trigger digital fatigue, making them more likely than men to deliberately leave messages unread and intentionally delay replies (intentional unread avoidance) to protect their personal boundaries."
+
+Virtual Data Mapping:
+- Female Group (Simulated Data = 85): Represents a state of high intentional avoidance and notification pressure.
+- Male Group (Simulated Data = 18): Represents a state of passive detachment or neglect due to lower baseline communication investment.
+
+<br>
+
+### 2. Prototype 1
+
+<iframe src="https://editor.p5js.org/hyun986/full/duyGyqZnV" height="600" width="400"></iframe>
+
+*(Source: Prototype 1 generated with OpenAI Codex by hyun986, available on editor.p5js.org)*
+
+To quickly test the proposed concept and interaction mechanics, I developed an initial web-based prototype with the assistance of Google Gemini.
+
+<br>
+
+![alt text](../assets/week-07/week7-3.png)
+
+*(Figure. Prompt development process for Prototype 1 using Google Gemini)*
 
 
+<br>
 
+### 3. Prototype 2
 
-## 2. What if Variations
+<iframe src="https://editor.p5js.org/hyun986/full/yqlPKt_fK" height="600" width="400"></iframe>
+
+*(Source: Prototype 2 generated with OpenAI Codex by hyun986, available on editor.p5js.org)*
+
+To address the issues identified in Prototype 1, I revised the interaction logic and visual design before submitting an updated prompt to the AI. This resulted in the development of Prototype 2.
+
+#### Key Improvements
+- **Smartphone UI Optimisation:** Updated to a 19.5:9 aspect ratio to better reflect modern smartphone screens and improve immersion.
+- **Improved Male Group Interaction:** Added a subtle "Passive Ghosting" behaviour, allowing particles to gently drift away from the cursor instead of remaining almost static.
+- **Refined Human Silhouette:** Redesigned the human figure with clearer and more symmetrical body shapes, including distinct shirt and skirt forms.
+- **Enhanced Particle Visibility:** Replaced small symbol-based particles with larger solid circular particles to improve clarity and strengthen the visual impact of the interaction.
+
+<br>
+
+![alt text](../assets/week-07/week7-4.png)
+
+*(Figure. Prompt development process for Prototype 2 using Google Gemini)*
+
+<br>
+
+## 3. What if Variations
 ---
+
+My partner Yeseul suggested three alternative “What If” scenarios:
+
+- "What if, instead of avoiding the cursor, the human figure gradually became trapped by unread messages?"
+- "What if the unread message count physically changed the shape of the human figure?"
+- "What if multiple human figures moved further apart from one another as unread message counts increased, visualising social disconnection?"
+
+Among these suggestions, the idea of multiple human figures moving further apart as unread message counts increased had the most influence on my project.
+
+My current project focuses on an individual’s communication avoidance through a single human figure that scatters away from the mouse cursor. However, this scenario encouraged me to think beyond individual behaviour and consider how unread messages might affect relationships between people. For example, multiple human figures could exist within the same visual space, with increasing numbers of unread messages causing the figures to gradually move farther apart. Conversely, lower unread message counts could allow the figures to remain closer together, suggesting stronger social connections. This approach extends the project beyond visualising individual digital fatigue and opens up the possibility of representing social disconnection and weakened relationships within digital environments. I think this idea could help develop the project further by looking at communication avoidance not only from an individual’s perspective but also from a social perspective. Instead of focusing on just one person, it could show how unread messages affect relationships between multiple people and create a sense of distance between them. I also think this approach would make the project more interesting because it allows me to visualise both individual behaviour and the connections between people simply and understandably.
+
+<br>
+
+# Independent Study
+---
+Due to a severe cold, I was unable to attend the Week 7 class in person and therefore completed all in-class activities independently from home.
+
+1. Project Development & Skill Building
+2. Progress Report
+
+<br>
+
+## 1. Concept Sketches
+---
+### 1.1 Initial Concept Sketch
