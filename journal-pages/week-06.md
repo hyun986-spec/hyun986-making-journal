@@ -245,6 +245,8 @@ At the same time, I did some online research and discovered Arduino, an open sou
 
 ## 3. Initial Concept Sketch
 ---
+![alt text](../assets/week-06/week6-7.png)
+
 <iframe src="https://editor.p5js.org/hyun986/full/t6jPYnEWk9" height="600" width="600"></iframe>
 
 *(Source: Particle Grid via Gemini by hyun986, available on editor.p5js.org)* <br><br>
