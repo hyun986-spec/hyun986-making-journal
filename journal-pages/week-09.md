@@ -79,7 +79,7 @@ Represent each participant as a particle showing:
 
 The planned visual mappings were:
 
-- Background: Black
+- Background: Black (#1A1A1A)
 - Gender (colour)
   - Female: Pink (#ff00cc)
   - Male: Blue (#0efcfe)
@@ -98,15 +98,73 @@ I also wanted to test whether this interaction effectively communicates communic
 
 ### 2.2 Making Sprint Progress (35 mins)
 
+#### Prototype 1
 <iframe src="https://editor.p5js.org/hyun986/full/GFdeqJ0E_" height="600" width="600"></iframe>
 
+*(Source: Prototype 1 generated with a Gemini-generated prompt and OpenAI Codex, available on editor.p5js.org)*
+
+#### Prototype 2
+<iframe src="https://editor.p5js.org/hyun986/full/69gtYkvzN" height="600" width="600"></iframe>
+
+*(Source: Prototype 2 developed by adding a central return behaviour, allowing particles to move back towards the centre after avoiding the cursor, available on editor.p5js.org)*
+
+#### Prototype 3
+<iframe src="https://editor.p5js.org/hyun986/full/FdGo2bGZb" height="600" width="600"></iframe>
+
+*(Source: Prototype 3 refined by increasing the central attraction force and improving particle recovery behaviour, available on editor.p5js.org)*
+
+<br>
 
 ---
 
 ## 3. Round Robin Rapid Reactions
 
-# AI Usage Statement
+(내꺼 사진)
+
+### Feedback from Visitors
+- "I found the concept easy to understand and the interaction felt engaging."
+- "I liked how the particles reacted differently depending on the data."
+- "I felt the connection between unread messages and avoidance behaviour was clear."
+- "I found the movement of the particles visually interesting and fun to explore."
+- "I thought the colours made it easy to distinguish between male and female participants."
+- "I think it would be interesting to see how the reason for not replying data could be included in the future."
+- "I felt that participants with very high unread message counts could have even stronger behaviours."
+- "The project made me think about my own unread messages and communication habits."
+
+<br>
+
+### Feedback Summary and Next Steps
+My prototype received positive feedback overall. Many people said they could easily understand the idea that leaving messages unread can be a form of communication and avoidance, even without much explanation. The feedback suggested that the current direction works well and should be continued. One comment that stood out was that including data about the reasons for not replying could make the project more interesting. In the next stage, I plan to explore how to present this information clearly and visually. Since most feedback was positive, I will continue developing the project in its current direction. I also plan to add one of my original ideas, changing the mouse cursor into a message icon, to make the prototype more complete.
+
+<br>
+
 ---
+
+# Independent Study
+
+Following on from last week, I continued collecting data and developing the project based on feedback from the making sprint and round robin sessions. In this class, I created a new prototype that changes how the data is displayed. Previously, users could only view either male or female data by selecting one gender at a time. The new prototype shows both datasets together on a single screen, making direct comparison possible. Male participants are represented in blue and female participants in pink, allowing differences between the two groups to be identified more easily.
+
+During the Round Robin feedback session, I received positive responses about the project. Participants found the concept easy to understand and the interaction engaging. They also commented that the connection between unread messages and avoidance behaviour was communicated clearly. One key suggestion was to incorporate the survey data about “reasons for not replying,” as this could add another layer of meaning to the visualisation.
+
+Based on this feedback, my independent study this week focused on exploring ways to integrate the reasons for not replying to data into the project. I researched possible visual representations for this dataset, organised different design options, and considered how these could be incorporated into future prototypes. I plan to test several visualisation approaches using Gemini to support the implementation process.
+
+One approach currently being considered is representing the reasons for not replying through different icon shapes:
+
+- No unread messages: heart shape
+- Yes unread messages:
+  - I forgot: circle
+  - I am too busy: triangle
+  - I do not know how to respond: star
+  - I do not want to respond: hexagon
+  - I am avoiding the conversation: square
+  - Other: plus shape
+
+<br>
+
+---
+
+# AI Usage Statement
+
 - Google. (2026). Gemini [Large language model]. https://gemini.google.com
 
 - OpenAI. (2026). Codex [AI coding model]. https://openai.com
