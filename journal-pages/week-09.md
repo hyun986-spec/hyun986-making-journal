@@ -169,8 +169,23 @@ One approach currently being considered is representing the reasons for not repl
 
 ## 2. Progress Report
 
-(사진)
+![alt text](../assets/week-09/week9-p1.png) 
+*(Figure: Presentation Slide 1)*
 
+![alt text](../assets/week-09/week9-p2.png) 
+*(Figure: Presentation Slide 2)*
+
+![alt text](../assets/week-09/week9-p3.png) 
+*(Figure: Presentation Slide 3)*
+
+![alt text](../assets/week-09/week9-p4.png) 
+*(Figure: Presentation Slide 4)*
+
+![alt text](../assets/week-09/week9-p5.png) 
+*(Figure: Presentation Slide 5)*
+
+![alt text](../assets/week-09/week9-p6.png)
+*(Figure: Presentation Slide 6)*
 
 ---
 
