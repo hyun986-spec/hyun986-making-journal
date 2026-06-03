@@ -14,11 +14,12 @@ layout: default
 3. Round Robin Rapid Reactions
 
 
-
-## 1. Project Statement: First Draft
 ---
 
-### Case Study
+## 1. Project Statement: First Draft
+
+
+### 1.1 Case Study
 
 During this activity, I worked with a partner to explore Xeno Computer 0.1: Labor by Tega Brain and Sam Lavigne on the Miro board. We used sticky notes to respond to the provided questions and discuss the ideas presented in the project. This helped me think more deeply about the relationship between labour, technology, and data.
 
@@ -37,7 +38,7 @@ During this activity, I worked with a partner to explore Xeno Computer 0.1: Labo
 
 <br>
 
-### Evaluation
+### 1.2 Evaluation
 
 **Strengths of the Draft:** I found that the draft generated with NotebookLM explained the overall intention and theme of the project effectively, but some parts no longer aligned with the project's current direction. In particular, the initial concept I had envisioned focused on a human figure composed of thousands of particles, whereas the project has since evolved to represent each participant’s data as a single individual particle. Therefore, I will revise the draft so that it more accurately reflects the structure and interaction methods of the current prototype.
 
@@ -49,7 +50,7 @@ During this activity, I worked with a partner to explore Xeno Computer 0.1: Labo
 
 <br>
 
-### Peer Share
+### 1.3 Peer Share
 Finally, I shared my draft and evaluation with a peer and exchanged feedback. After each of us spent about five minutes explaining our project, we discussed which aspects were communicated clearly and which areas could be further improved. This process helped me identify both the strengths and weaknesses of my current project and reflect on possible directions for future development.
 
 **Feedback from Peer:**
@@ -59,6 +60,50 @@ Finally, I shared my draft and evaluation with a peer and exchanged feedback. Af
 
 <br>
 
+---
+
+## 2. Making Sprint
+
+### 2.1 Sprint Planning (10 mins)
+
+Before starting the making sprint, I reviewed the feedback and organised the main ideas into bullet points. I then used Gemini to help develop a prompt for the next stage of the project. I decided to display male and female participants together in a single view instead of separating them into different screens, making comparison easier. I also changed the colour mapping. Previously, colour represented the number of unread messages, but I reassigned it to gender: female participants are shown in pink (#ff00cc) and male participants in blue (#0efcfe). Since the unread message count is already displayed next to each particle, using colour for the same data felt unnecessary.
+
+The main goals for this sprint were:
+
+Represent each participant as a particle showing:
+- Gender
+- Whether they have unread/unanswered messages
+- Number of unread/unanswered messages
+
+*(The project also collected data on why participants did not read or reply to messages, but I have not yet found an effective way to visualise it. For now, I focused on the three data types above.)*
+
+The planned visual mappings were:
+
+- Background: Black
+- Gender (colour)
+  - Female: Pink (#ff00cc)
+  - Male: Blue (#0efcfe)
+- Unread message status and quantity (movement)
+  - No unread messages: attracted to the mouse cursor
+  - Has unread messages: avoids the mouse cursor
+  - Avoidance strength:
+    - 1–5 messages: 10
+    - 6–20 messages: 20
+    - 21–40 messages: 30
+    - 40+ messages: 50
+
+I also wanted to test whether this interaction effectively communicates communication avoidance and explore ways to incorporate the survey responses about why messages were left unread in future iterations.
+
+<br>
+
+### 2.2 Making Sprint Progress (35 mins)
+
+<iframe src="https://editor.p5js.org/hyun986/full/GFdeqJ0E_" height="600" width="600"></iframe>
+
+
+---
+
+## 3. Round Robin Rapid Reactions
 
 # AI Usage Statement
 ---
