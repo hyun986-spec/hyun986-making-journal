@@ -142,6 +142,8 @@ My prototype received positive feedback overall. Many people said they could eas
 
 # Independent Study
 
+## 1. Project Development
+
 Following on from last week, I continued collecting data and developing the project based on feedback from the making sprint and round robin sessions. In this class, I created a new prototype that changes how the data is displayed. Previously, users could only view either male or female data by selecting one gender at a time. The new prototype shows both datasets together on a single screen, making direct comparison possible. Male participants are represented in blue and female participants in pink, allowing differences between the two groups to be identified more easily.
 
 During the Round Robin feedback session, I received positive responses about the project. Participants found the concept easy to understand and the interaction engaging. They also commented that the connection between unread messages and avoidance behaviour was communicated clearly. One key suggestion was to incorporate the survey data about “reasons for not replying,” as this could add another layer of meaning to the visualisation.
@@ -159,7 +161,16 @@ One approach currently being considered is representing the reasons for not repl
   - I am avoiding the conversation: square
   - Other: plus shape
 
+<iframe src="https://editor.p5js.org/hyun986/full/zxDiTyWGk" height="600" width="600"></iframe>
+
+*(Source: Prototype developed by adding reason-based icons to represent why participants leave messages unread, available on editor.p5js.org)*
+
 <br>
+
+## 2. Progress Report
+
+(사진)
+
 
 ---
 
