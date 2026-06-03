@@ -50,6 +50,8 @@ In this activity, I partnered with Yeseul to present my project and exchange fee
 
 I was particularly interested in how the project used the black box to reveal invisible emotions and personal experiences. However, I felt there was an opportunity to further develop the audience's role within the experience. My suggestions focused on creating stronger interaction and allowing participants to engage more directly with the emotions and stories being presented.
 
+<br>
+
 ### Feedback from Yeseul
 Yeseul said that the second interaction was the most interesting. She found the way the human-shaped particles scattered when the mouse approached intuitive, as it resembled the act of avoiding communication. However, she mentioned that it was difficult to immediately understand why the particles were moving away until I explained the concept. In her opinion, the current mouse cursor does not clearly indicate what the particles are trying to avoid. She suggested representing the cursor as an icon that symbolises communication or messages rather than a simple pointer, which could help users understand the meaning of the interaction more easily.
 
@@ -62,6 +64,8 @@ Yeseul said that the second interaction was the most interesting. She found the 
 The feedback I received helped me think about my project in a broader way. As mentioned earlier, the most significant feedback from my progress report was the suggestion that visualising individual participant data could be more engaging and persuasive than relying primarily on averages and group-based data. In fact, I had already felt that averaging the data removed many of the individual differences and unique characteristics of the participants. For this reason, the feedback strongly resonated with concerns I was already having and encouraged me to reconsider my current approach to data representation. In response, I would like to further develop the current group-based visualisation by exploring ways to represent each participant as an individual particle. Since the first interface received positive feedback, I plan to keep the existing structure in which users select either the male or female group. However, in the following visualisation, each particle will represent an individual participant rather than an averaged dataset. I believe this approach will allow me to reveal a wider range of behavioural patterns and individual differences that were previously hidden behind average values. My main goal in this project is to create a visualisation that allows audiences to quickly understand the data while also experiencing the concept of communication avoidance in a simple and intuitive way. Rather than explaining every detail through text, I want the interaction itself to communicate the idea and encourage people to reflect on their own communication behaviours.
 
 <br>
+
+---
 
 ## 2. Project Development
 Based on my reflection, I began developing a p5.js prototype to test the new direction of the project. Before generating any code, I first experimented with writing detailed prompts in Gemini to clearly communicate my ideas and the type of visualisation I wanted to create. After refining the prompts, I used Codex to help generate the code and build the prototype. At the moment, only 19 participants have completed the survey, so I used the available data to create an initial visualisation. For this stage, I focused on developing the second interface.
@@ -82,7 +86,7 @@ Key developments include:
 - - Unread messages present = moves away from the cursor
 - - More unread messages = stronger avoidance behaviour
 
-<iframe src="https://editor.p5js.org/hyun986/full/ETTKehvh7"height="500" width="500"></iframe>
+<iframe src="https://editor.p5js.org/hyun986/full/ETTKehvh7" height="500" width="500"></iframe>
 
 *(Source: Interactive p5.js prototype — individual particles)*
 
@@ -99,7 +103,7 @@ To improve this, I tried to add a return behaviour to the particles. My intentio
 
 However, this version created some coding issues, and the particles did not behave as expected. The return movement was not working smoothly, and the interaction became less stable than intended.
 
-<iframe src="https://editor.p5js.org/hyun986/full/1IGLLHnmA"height="500" width="500"></iframe>
+<iframe src="https://editor.p5js.org/hyun986/full/1IGLLHnmA" height="500" width="500"></iframe>
 
 *(Source: Interactive p5.js prototype — return behaviour test)*
 
@@ -108,7 +112,7 @@ However, this version created some coding issues, and the particles did not beha
 ### Development 3
 After identifying the issues in Development 2, I refined the code through further testing and conversation-based debugging. In this version, I corrected the particle behaviour so that the particles could move away from the cursor while also returning more smoothly afterwards.
 
-<iframe src="https://editor.p5js.org/hyun986/full/OAnjmzxnp"height="500" width="500"></iframe>
+<iframe src="https://editor.p5js.org/hyun986/full/OAnjmzxnp" height="500" width="500"></iframe>
 
 *(Source: Interactive p5.js prototype — debugged version)*
 
