@@ -48,7 +48,7 @@ In this activity, I partnered with Yeseul to present my project and exchange fee
 - What if people who have never experienced this feeling could still participate?
 - What if the black box reacted differently depending on emotional responses?
 
-The most interesting aspect of the project was how it allowed the audience to experience invisible emotions and inner stories through the black box. I was especially impressed by the approach of transforming personal emotions into a spatial experience. However, I think the way the audience can participate in and influence the experience could be further developed. 
+I was particularly interested in how the project used the black box to reveal invisible emotions and personal experiences. However, I felt there was an opportunity to further develop the audience's role within the experience. My suggestions focused on creating stronger interaction and allowing participants to engage more directly with the emotions and stories being presented.
 
 ### Feedback from Yeseul
 Yeseul said that the second interaction was the most interesting. She found the way the human-shaped particles scattered when the mouse approached intuitive, as it resembled the act of avoiding communication. However, she mentioned that it was difficult to immediately understand why the particles were moving away until I explained the concept. In her opinion, the current mouse cursor does not clearly indicate what the particles are trying to avoid. She suggested representing the cursor as an icon that symbolises communication or messages rather than a simple pointer, which could help users understand the meaning of the interaction more easily.
