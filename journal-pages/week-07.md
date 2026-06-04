@@ -32,26 +32,22 @@ I was unable to attend the Week 7 class due to illness, so I completed the in-cl
 *(Figure: Screenshot of the Miro board showing Week 7 peer feedback)* <br>
 As I was unable to attend the studio session in person due to illness, I asked a classmate in DES240 to provide feedback online. Since I have a limited network within the course, I also sought feedback from a student studying design in another course. This allowed me to gain new perspectives on my conceptual sketches and helped further develop the project.
 
-#### 1. Changes to the Data Representation
+**1. Changes to the Data Representation**: The most thought provoking piece of feedback was the question: “What happens visually if a participant has zero unread messages?” My original concept mainly focused on participants who had unread messages, so I had not fully considered how the visualisation would behave when the value was zero. However, simply displaying an empty canvas when the data value is zero would feel visually weak and unengaging. This feedback encouraged me to rethink how the data should be represented. Initially, I planned to increase the number of human figures according to the number of unread messages. However, I am now considering maintaining a single human figure while varying its colour, particle density, or interaction intensity. For example, participants with more unread messages could trigger a stronger repulsion effect, causing the particles to scatter further away from the cursor. In contrast, when the unread message count is zero, the figure would remain stable and calm without dispersing. This approach would allow the interaction itself to communicate the data. It could visually suggest that as the number of unread messages increases, the participant becomes more overwhelmed or defensive towards social communication. I believe this approach represents message avoidance behaviour more effectively than my original concept.
 
-The most thought provoking piece of feedback was the question: “What happens visually if a participant has zero unread messages?” My original concept mainly focused on participants who had unread messages, so I had not fully considered how the visualisation would behave when the value was zero. However, simply displaying an empty canvas when the data value is zero would feel visually weak and unengaging. This feedback encouraged me to rethink how the data should be represented. Initially, I planned to increase the number of human figures according to the number of unread messages. However, I am now considering maintaining a single human figure while varying its colour, particle density, or interaction intensity. For example, participants with more unread messages could trigger a stronger repulsion effect, causing the particles to scatter further away from the cursor. In contrast, when the unread message count is zero, the figure would remain stable and calm without dispersing. This approach would allow the interaction itself to communicate the data. It could visually suggest that as the number of unread messages increases, the participant becomes more overwhelmed or defensive towards social communication. I believe this approach represents message avoidance behaviour more effectively than my original concept.
-
-#### 2. Expanding from Individual Data to Group Data
-
-Another piece of feedback questioned how users would know which participant number (1–50) to enter. Since the data was collected anonymously, it made me reconsider whether allowing users to access individual participant profiles is the most meaningful interaction.<br>
+**2. Expanding from Individual Data to Group Data:** Another piece of feedback questioned how users would know which participant number (1–50) to enter. Since the data was collected anonymously, it made me reconsider whether allowing users to access individual participant profiles is the most meaningful interaction.<br>
 This feedback also reminded me of my tutor’s suggestion in Week 6 to consider demographic categories such as gender. As a result, I am now exploring the possibility of visualising group data rather than individual participants. For example, I could compare the average behaviours of male and female design students, or visualise differences between age groups. This approach may reveal broader patterns within the dataset and provide more meaningful insights than focusing on a single anonymous participant. It could also help users understand differences within the data more intuitively.
 
-#### 3. Positive Feedback on the Existing Concept
-
-On the other hand, the positive feedback regarding the smartphone keypad interface and the human figure that scatters away from the mouse cursor aligned closely with my original intentions. These comments reinforced my belief that the interaction successfully communicates themes of digital fatigue and communication avoidance. As a result, I plan to continue developing and refining these aspects of the project. <br><br>
+**3. Positive Feedback on the Existing Concept:** On the other hand, the positive feedback regarding the smartphone keypad interface and the human figure that scatters away from the mouse cursor aligned closely with my original intentions. These comments reinforced my belief that the interaction successfully communicates themes of digital fatigue and communication avoidance. As a result, I plan to continue developing and refining these aspects of the project. <br><br>
 
 ### 1.3 Developed Concept Sketch
-(add image)
+![alt text](../assets/week-07/week7-5.png)
+*(figure: sketch showing the grouped particle concept)*
 
 <br>
 
-## 2. Making Sprint
 ---
+
+## 2. Making Sprint
 
 ### 1. Research & Hypothesis
 Before collecting primary data, secondary research was conducted to analyze gender differences in mobile communication styles and to establish the core project hypothesis. According to academic literature on mediated communication (Kimbrough et al., 2013), women place a significantly higher value on mobile messaging and social media to maintain emotional connections and relationships compared to men.
