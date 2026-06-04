@@ -76,7 +76,7 @@ To quickly test the proposed concept and interaction mechanics, I developed an i
 
 *(Source: Prototype 2 generated with OpenAI Codex by hyun986, available on editor.p5js.org)*
 
-To address the issues identified in Prototype 1, I revised the interaction logic and visual design before submitting an updated prompt to the AI. This resulted in the development of Prototype 2.
+To address the issues identified in Prototype 1, I revised the interaction logic and visual design before submitting an updated prompt to the AI.
 
 #### Key Improvements
 - **Smartphone UI Optimisation:** Updated to a 19.5:9 aspect ratio to better reflect modern smartphone screens and improve immersion.
