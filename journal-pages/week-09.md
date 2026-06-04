@@ -112,10 +112,10 @@ I also wanted to test whether this interaction effectively communicates communic
 
 *(Source: Prototype 2 developed by adding a central return behaviour, allowing particles to move back towards the centre after avoiding the cursor, available on editor.p5js.org)*
 
-#### Prototype 3
+#### Final Prototype
 <iframe src="https://editor.p5js.org/hyun986/full/FdGo2bGZb" height="600" width="600"></iframe>
 
-*(Source: Prototype 3 refined by increasing the central attraction force and improving particle recovery behaviour, available on editor.p5js.org)*
+*(Source: Final Prototype refined by increasing the central attraction force and improving particle recovery behaviour, available on editor.p5js.org)*
 
 <br>
 
@@ -123,7 +123,8 @@ I also wanted to test whether this interaction effectively communicates communic
 
 ## 3. Round Robin Rapid Reactions
 
-(내꺼 사진)
+![alt text](../assets/week-09/week9-5.png)
+*(Figure: Photo of my final Making Sprint prototype)*
 
 ### Feedback from Visitors
 - "I found the concept easy to understand and the interaction felt engaging."
@@ -150,9 +151,7 @@ My prototype received positive feedback overall. Many people said they could eas
 
 Following on from last week, I continued collecting data and developing the project based on feedback from the making sprint and round robin sessions. In this class, I created a new prototype that changes how the data is displayed. Previously, users could only view either male or female data by selecting one gender at a time. The new prototype shows both datasets together on a single screen, making direct comparison possible. Male participants are represented in blue and female participants in pink, allowing differences between the two groups to be identified more easily.
 
-During the Round Robin feedback session, I received positive responses about the project. Participants found the concept easy to understand and the interaction engaging. They also commented that the connection between unread messages and avoidance behaviour was communicated clearly. One key suggestion was to incorporate the survey data about “reasons for not replying,” as this could add another layer of meaning to the visualisation.
-
-Based on this feedback, my independent study this week focused on exploring ways to integrate the reasons for not replying to data into the project. I researched possible visual representations for this dataset, organised different design options, and considered how these could be incorporated into future prototypes. I plan to test several visualisation approaches using Gemini to support the implementation process.
+During the Round Robin feedback session, I received positive responses about the project. Participants found the concept easy to understand and the interaction engaging. They also commented that the connection between unread messages and avoidance behaviour was communicated clearly. One key suggestion was to incorporate the survey data about “reasons for not replying,” as this could add another layer of meaning to the visualisation. Based on this feedback, my independent study this week focused on exploring ways to integrate the reasons for not replying to data into the project. I researched possible visual representations for this dataset, organised different design options, and considered how these could be incorporated into future prototypes. I plan to test several visualisation approaches using Gemini to support the implementation process.
 
 One approach currently being considered is representing the reasons for not replying through different icon shapes:
 
@@ -164,6 +163,8 @@ One approach currently being considered is representing the reasons for not repl
   - I do not want to respond: hexagon
   - I am avoiding the conversation: square
   - Other: plus shape
+  ![alt text](../assets/week-09/week9-6.png)
+  *(Figure: Example shapes for unread message reasons)*
 
 <iframe src="https://editor.p5js.org/hyun986/full/zxDiTyWGk" height="600" width="600"></iframe>
 
@@ -193,7 +194,16 @@ One approach currently being considered is representing the reasons for not repl
 
 ---
 
-# AI Usage Statement
+# References
+
+- Giorgia Lupi & Stefanie Posavec. (n.d.). Dear Data. Retrieved June 4, 2026, from https://giorgialupi.com/dear-data
+
+- Design and Violence. (n.d.). The Museum of Modern Art. Retrieved June 4, 2026, from https://www.moma.org/collection/works/196071
+
+- Human Particle System. (n.d.). OpenProcessing. Retrieved June 4, 2026, from https://openprocessing.org/@noel/2812705
+
+
+### AI Usage Statement
 
 - Google. (2026). Gemini [Large language model]. https://gemini.google.com
 
