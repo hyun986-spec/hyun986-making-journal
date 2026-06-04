@@ -137,7 +137,7 @@ I created a survey form to collect data about unread messages from design studen
 
 ![alt text](../assets/week-07/week7-7.png) 
 ![alt text](../assets/week-07/week7-8.png)
-*(Figure: screenshots of the survey)*<a href="https://docs.google.com/forms/d/e/1FAIpQLSe9FX7UyTXiTNtHr_ZekJsXlcLCdsCM5T9LCkZXBmD5gXEDBQ/viewform?usp=dialog"> 
+*(Figure: screenshots of the survey)* <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9FX7UyTXiTNtHr_ZekJsXlcLCdsCM5T9LCkZXBmD5gXEDBQ/viewform?usp=dialog"> 
 Survey Link</a>
 
 <br>
@@ -166,7 +166,13 @@ Survey Link</a>
 ---
 
 # References
+
 Kimbrough, A. M., Guadagno, R. E., Muscanell, N. L., & Dill, J. (2013). Gender differences in mediated communication: Women connect more than do men. Computers in Human Behavior, 29(3), 896–900. https://doi.org/10.1016/j.chb.2012.12.005
+
+noel. (n.d.). Interactive Sketch Showcase [OpenProcessing sketch]. OpenProcessing. https://openprocessing.org/@noel/2812705
+
+u110137. (n.d.). Interactive Sketch Showcase [OpenProcessing sketch]. OpenProcessing. https://openprocessing.org/@u110137/2703303
+
 
 ### AI Usage Statement
 
