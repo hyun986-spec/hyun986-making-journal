@@ -67,6 +67,9 @@ Based on my reflection, I began developing a p5.js prototype to test the new dir
 
 ### Week 8 Development 1
 
+![alt text](../assets/week-08/week8-3.png)
+*(Figure: sketch of the developed individual particles concept)*
+
 Key developments include:
 
 - Each participant is shown as an individual particle.
@@ -80,9 +83,6 @@ Key developments include:
     - 0 unread messages = follows the mouse cursor
     - Unread messages present = moves away from the cursor
     - More unread messages = stronger avoidance behaviour
-
-![alt text](../assets/week-08/week8-3.png)
-*(Figure: sketch of the developed individual particles concept)*
 
 ![alt text](../assets/week-08/week8-4.png)
 *(Figure: prompt generated using Google Gemini)*
@@ -123,16 +123,19 @@ After identifying the issues in Development 2, I refined the code through furthe
 
 ---
 
-### 1.4 Data Collection
+### 1.4 Data Collection Progress
 
+![alt text](../assets/week-10/week10-6.png)
+*(Figure: Week 10 survey data collection progress)*
+
+At the time of writing, I have collected survey responses from 40 University of Auckland students. I plan to continue gathering responses and incorporate additional participant data into future iterations of the visualisation.
+
+<br>
 
 ---
-
-
-
 
 # AI Usage Statement
----
+
 - Google. (2026). Gemini [Large language model]. https://gemini.google.com
 
 - OpenAI. (2026). Codex [AI coding model]. https://openai.com
