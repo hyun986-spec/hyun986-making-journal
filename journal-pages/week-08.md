@@ -114,7 +114,7 @@ After identifying the issues in Development 2, I refined the code through furthe
 
 <iframe src="https://editor.p5js.org/hyun986/full/OAnjmzxnp" height="500" width="500"></iframe>
 
-*(Source: Interactive p5.js prototype — debugged version)*
+*(Source: Interactive p5.js prototype - debugged version)*
 
 <br>
 

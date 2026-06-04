@@ -8,7 +8,7 @@ layout: default
 
 # In-Class Activities
 ---
-Due to a severe cold, I was unable to attend the Week 7 class in person and therefore completed all in-class activities independently from home.
+I was unable to attend the Week 7 class due to illness, so I completed the in-class activities independently from home.
 
 1. Concept Sketches
 2. Making Sprint
