@@ -220,9 +220,10 @@ I have collected data from 34 participants so far.
 
 ### AI Usage Statement
 
-- Google. (2026). Gemini [Large language model]. https://gemini.google.com
+References
 
+- Google. (2026). Gemini [Large language model]. https://gemini.google.com
+- Google. (2026). NotebookLM [AI research and note-taking assistant]. https://notebooklm.google.com
 - OpenAI. (2026). Codex [AI coding model]. https://openai.com
 
-
-Google Gemini and OpenAI Codex were used as coding support tools during the development of the p5.js prototype. These tools were used to generate prompts, produce example code, troubleshoot programming errors, and explore different programming approaches. All final design decisions, data mappings, code selection, refinements, and project outcomes were developed and evaluated by Hyein Yun.
+AI Use Statement: Google Gemini, Google NotebookLM, and OpenAI Codex were used as support tools during the development of the p5.js prototype. These tools were used to generate prompts, provide example code, troubleshoot programming errors, summarise research materials, and explore different programming approaches. All final design decisions, data mappings, code selection, refinements, interpretations, and project outcomes were developed, reviewed, and evaluated by Hyein Yun.
