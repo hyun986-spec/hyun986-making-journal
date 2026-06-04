@@ -110,3 +110,14 @@ Once I confirmed that the prototype was functioning correctly, I added the remai
 *(Figure: Final Project Statement)*
 
 
+<br>
+
+--- 
+# AI Usage Statement
+
+- Google. (2026). Gemini [Large language model]. https://gemini.google.com
+
+- OpenAI. (2026). Codex [AI coding model]. https://openai.com
+
+
+Google Gemini and OpenAI Codex were used as coding support tools during the development of the p5.js prototype. These tools were used to generate prompts, produce example code, troubleshoot programming errors, and explore different programming approaches. All final design decisions, data mappings, code selection, refinements, and project outcomes were developed and evaluated by Hyein Yun.
