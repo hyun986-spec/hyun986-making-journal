@@ -172,6 +172,8 @@ One approach currently being considered is representing the reasons for not repl
 
 <br>
 
+---
+
 ## 2. Progress Report
 
 ![alt text](../assets/week-09/week9-p1.png) 
@@ -191,6 +193,19 @@ One approach currently being considered is representing the reasons for not repl
 
 ![alt text](../assets/week-09/week9-p6.png)
 *(Figure: Presentation Slide 6)*
+
+<br>
+
+---
+
+## 3. Data Collection Progress
+
+![alt text](../assets/week-09/week9-7.png)
+*(Figure: Week 9 survey data collection progress)*
+
+I have collected data from 34 participants so far.
+
+<br>
 
 ---
 
