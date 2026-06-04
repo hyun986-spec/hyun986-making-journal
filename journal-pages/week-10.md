@@ -103,3 +103,14 @@ In the final version, I refined the smartphone interface and adjusted the sensit
 *(Figure: Week 10 survey data collection progress)*
 
 At the time of writing, I have collected survey responses from 40 University of Auckland students. I plan to continue gathering responses and incorporate additional participant data into future iterations of the visualisation.
+
+<br>
+
+# AI Usage Statement
+
+- Google. (2026). Gemini [Large language model]. https://gemini.google.com
+
+- OpenAI. (2026). Codex [AI coding model]. https://openai.com
+
+
+Google Gemini and OpenAI Codex were used as coding support tools during the development of the p5.js prototype. These tools were used to generate prompts, produce example code, troubleshoot programming errors, and explore different programming approaches. All final design decisions, data mappings, code selection, refinements, and project outcomes were developed and evaluated by Hyein Yun.
