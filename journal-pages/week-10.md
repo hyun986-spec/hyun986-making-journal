@@ -63,3 +63,15 @@ I also plan to experiment with an interaction that I have been considering for s
 # Independent Study
 
 Project Development
+- 마우스 아이콘을 메시지 아이콘으로 변경
+- No unread messages: message bubble with an heart shape
+- Yes unread messages:
+  - I forgot = brain icon
+  - I am too busy = clock icon
+  - I do not know how to respond = message bubble with a question mark icon
+  - I do not want to respond = message bubble with an X icon
+  - I am avoiding the conversation = running person or hiding face icon
+  - Other = ellipsis icon 
+
+<iframe src="file:///Users/hyeuin/Documents/Codex/2026-06-04/files-mentioned-by-the-user-txt/outputs/unread-avoidance-p5-all-in-one.html" height="600" width="900"></iframe>
+
