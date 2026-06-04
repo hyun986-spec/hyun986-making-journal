@@ -299,4 +299,4 @@ At the same time, I did some online research and discovered Arduino, an open sou
 - OpenAI. (2026). Codex [AI coding model]. https://openai.com
 
 
-ChatGPT (GPT-5.5), Google Gemini, and OpenAI Codex were used only for coding assistance during the development of the p5.js prototype. These tools helped generate and explain example code for experimentation and testing. All final implementation and project decisions were completed by me.
+ChatGPT (GPT-5.5), Google Gemini, and OpenAI Codex were used only for coding assistance during the development of the p5.js prototype. These tools helped generate and explain example code for experimentation and testing. All final implementation and project decisions were completed by Hyein Yun.
