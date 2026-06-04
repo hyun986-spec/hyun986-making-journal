@@ -62,7 +62,7 @@ I also plan to experiment with an interaction that I have been considering for s
 # Independent Study
 
 ## Project Development
-- 마우스 아이콘을 메시지 아이콘으로 변경
+- Change the cursor to a message icon
 - No unread messages: message bubble with an heart shape
 - Yes unread messages:
   - I forgot = brain icon
