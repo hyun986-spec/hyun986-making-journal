@@ -65,7 +65,7 @@ The feedback I received helped me think about my project in a broader way. As me
 ## 2. Project Development
 Based on my reflection, I began developing a p5.js prototype to test the new direction of the project. Before generating any code, I first experimented with writing detailed prompts in Gemini to clearly communicate my ideas and the type of visualisation I wanted to create. After refining the prompts, I used Codex to help generate the code and build the prototype. At the moment, only 19 participants have completed the survey, so I used the available data to create an initial visualisation. For this stage, I focused on developing the second interface.
 
-### Week 8 Development 1
+### 2.1 Week 8 Development 1
 
 ![alt text](../assets/week-08/week8-3.png)
 *(Figure: sketch of the developed individual particles concept)*
@@ -93,7 +93,7 @@ Key developments include:
 
 <br>
 
-### Week 8 Development 2
+### 2.2 Week 8 Development 2
 
 In the previous version, I noticed several problems with the interaction:
 
@@ -112,7 +112,7 @@ However, this version created some coding issues, and the particles did not beha
 
 <br>
 
-### Week 8 Final Development
+### 2.3 Week 8 Final Development
 After identifying the issues in Development 2, I refined the code through further testing and conversation-based debugging. In this version, I corrected the particle behaviour so that the particles could move away from the cursor while also returning more smoothly afterwards.
 
 <iframe src="https://editor.p5js.org/hyun986/full/OAnjmzxnp" height="500" width="500"></iframe>
@@ -123,12 +123,12 @@ After identifying the issues in Development 2, I refined the code through furthe
 
 ---
 
-### 1.4 Data Collection Progress
+## 3. Data Collection Progress
 
-![alt text](../assets/week-10/week10-6.png)
-*(Figure: Week 10 survey data collection progress)*
+![alt text](../assets/week-08/week8-5.png)
+*(Figure: Week 8 survey data collection progress)*
 
-At the time of writing, I have collected survey responses from 40 University of Auckland students. I plan to continue gathering responses and incorporate additional participant data into future iterations of the visualisation.
+I have collected data from 21 participants so far.
 
 <br>
 
