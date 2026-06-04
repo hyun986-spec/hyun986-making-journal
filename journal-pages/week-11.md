@@ -54,6 +54,7 @@ For the final showcase, I plan to present the work on a computer screen. Since t
 
 ## 1. Data Collection Complete
 ![alt text](../assets/week-11/week11-2.png)
+
 *(Figure: Week 11 data collection progress)*
 
 I successfully reached my goal of collecting survey data from 50 University of Auckland students and ultimately gathered a total of 53 responses. The data collection process was more challenging than I expected. Since I am quite shy, one of the most difficult parts was asking friends and other students to participate in the survey. At first, I felt uncomfortable approaching people and requesting their help, but by gradually building confidence and continuing to ask for participation, I was able to collect more responses than I originally planned.
@@ -63,6 +64,7 @@ I successfully reached my goal of collecting survey data from 50 University of A
 
 ### Step 1: Identifying the Problem
 ![alt text](../assets/week-11/week11-3.png)
+
 *(Figure: Screenshot of the previous final prototype)*
 
 My original plan was to use the "Final version with refined smartphone interface and interaction settings" developed in Week 10 as the final outcome. However, I encountered an unexpected problem. I assumed that sharing the p5.js project link would allow anyone to access and interact with the visualisation. Unfortunately, some of the features generated within the Codex environment did not function correctly outside of that environment. As a result, I realised that the project could only be documented through video rather than being experienced interactively by other users, which was not my intended outcome.
@@ -80,6 +82,7 @@ After investigating the issue, I discovered that the problem was caused by the u
 
 ### Step 3: Refinement and Testing
 <iframe src="https://editor.p5js.org/hyun986/full/UwFEbJLJP" height="900" width="600"></iframe>
+
 *(Source: Updated prototype with rebuilt icons and improved compatibility)*
 
 After rebuilding the icons, I reviewed and tested the entire interaction system. Through multiple rounds of testing, I fixed various errors and improved compatibility across different environments. This process allowed me to create a version that could be shared and experienced by other users as intended.
@@ -92,14 +95,17 @@ After rebuilding the icons, I reviewed and tested the entire interaction system.
 Once I confirmed that the prototype was functioning correctly, I added the remaining survey responses to the system. In total, data from 53 participants was incorporated into the visualisation, resulting in the final version of the project.
 
 
+--- 
 
-# Final Data-Based Visualisation
+## Final Data-Based Visualisation
 
 <iframe src="https://editor.p5js.org/hyun986/full/NlKgRF29O" height="900" width="600"></iframe>
 *(Source: Final interactive visualisation based on survey data collected from 53 participants)*
 
 
+## Project Statement
 
-
+![alt text](<../assets/week-11/Project Statement.png>)
+*(Figure: Final Project Statement)*
 
 
