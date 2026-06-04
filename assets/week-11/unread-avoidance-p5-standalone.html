@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unread Message Avoidance</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+    <style>
+      html, body {
+        margin: 0;
+        min-height: 100%;
+        background: #ffffff;
+      }
+      body {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        overflow: hidden;
+      }
+      main {
+        width: min(600px, 100vw, calc(100vh * 600 / 900));
+        aspect-ratio: 2 / 3;
+      }
+      canvas {
+        display: block;
+        width: 100% !important;
+        height: 100% !important;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="sketch-holder" aria-label="Interactive data visualisation of unread messages and communication avoidance"></main>
+    <script>
+const CANVAS_WIDTH = 600;
+const CANVAS_HEIGHT = 900;
+const PHONE = { x: 105, y: 28, width: 390, height: 845, radius: 62 };
+const SCREEN = { x: 119, y: 56, width: 362, height: 752, radius: 42 };
+const HOME_BUTTON = { x: 300, y: 840, width: 74, height: 22, radius: 11 };
+const ATTRACTOR = {
+  x: SCREEN.x + SCREEN.width / 2,
+  y: SCREEN.y + SCREEN.height / 2
+};
+const OUTSIDE_COLOR = "#ffffff";
+const BACKGROUND_COLOR = "#1A1A1A";
+const FEMALE_COLOR = "#ff00cc";
+const MALE_COLOR = "#0efcfe";
+const ICON_SIZE = 38;
+const CURSOR_ICON_SIZE = 38;
+const MOUSE_REPULSION_RADIUS = 210;
+const MAX_REPULSION_MESSAGES = 100;
+
+let heartMessageIcon;
+let cursorMessageIcon;
+let brainQuestionIcon;
+let clockIcon;
+let questionMessageIcon;
+let xMessageIcon;
+let hidingFaceIcon;
+let ellipsisIcon;
+let particles = [];
+
+let participants = [
+  { id: 1, gender: "Male", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 2, gender: "Male", hasUnread: true, unread: 14, reason: "I usually don’t reply to group chats" },
+  { id: 3, gender: "Male", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 4, gender: "Female", hasUnread: true, unread: 26, reason: "I forgot" },
+  { id: 5, gender: "Female", hasUnread: true, unread: 5, reason: "I am avoiding the conversation" },
+  { id: 6, gender: "Female", hasUnread: true, unread: 2, reason: "I do not know how to respond" },
+  { id: 7, gender: "Female", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 8, gender: "Female", hasUnread: true, unread: 2, reason: "I am too busy" },
+  { id: 9, gender: "Female", hasUnread: true, unread: 21, reason: "I forgot" },
+  { id: 10, gender: "Male", hasUnread: true, unread: 2, reason: "I do not want to respond" },
+  { id: 11, gender: "Female", hasUnread: true, unread: 900, reason: "All of the above" },
+  { id: 12, gender: "Male", hasUnread: true, unread: 50, reason: "I do not want to respond" },
+  { id: 13, gender: "Female", hasUnread: true, unread: 5, reason: "I do not want to respond" },
+  { id: 14, gender: "Female", hasUnread: true, unread: 10, reason: "I am too busy" },
+  { id: 15, gender: "Female", hasUnread: true, unread: 187, reason: "I am too busy" },
+  { id: 16, gender: "Male", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 17, gender: "Male", hasUnread: true, unread: 8, reason: "I am too busy" },
+  { id: 18, gender: "Male", hasUnread: true, unread: 40, reason: "I am too busy" },
+  { id: 19, gender: "Male", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 20, gender: "Female", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 21, gender: "Female", hasUnread: true, unread: 52, reason: "I forgot" },
+  { id: 22, gender: "Male", hasUnread: true, unread: 33, reason: "I forgot" },
+  { id: 23, gender: "Male", hasUnread: true, unread: 8, reason: "I am too busy" },
+  { id: 24, gender: "Male", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 25, gender: "Female", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 26, gender: "Female", hasUnread: true, unread: 28, reason: "I do not want to respond" },
+  { id: 27, gender: "Male", hasUnread: true, unread: 2, reason: "I forgot" },
+  { id: 28, gender: "Female", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 29, gender: "Male", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 30, gender: "Male", hasUnread: false, unread: 0, reason: "No unread messages" },
+  { id: 31, gender: "Female", hasUnread: true, unread: 2, reason: "I forgot" },
+  { id: 32, gender: "Female", hasUnread: true, unread: 234, reason: "I do not know how to respond" },
+  { id: 33, gender: "Female", hasUnread: true, unread: 8, reason: "I am too busy" },
+  { id: 34, gender: "Female", hasUnread: true, unread: 3, reason: "I forgot" },
+  { id: 35, gender: "Female", hasUnread: true, unread: 2, reason: "I forgot" },
+  { id: 36, gender: "Female", hasUnread: true, unread: 23, reason: "I am too busy" },
+  { id: 37, gender: "Female", hasUnread: true, unread: 35, reason: "I do not know how to respond" },
+  { id: 38, gender: "Female", hasUnread: true, unread: 3, reason: "I am too busy" },
+  { id: 39, gender: "Male", hasUnread: true, unread: 13, reason: "I forgot" },
+  { id: 40, gender: "Male", hasUnread: true, unread: 6, reason: "I forgot" }
+];
+
+function preload() {
+  heartMessageIcon = loadImage("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMTIgMTVoNDB2MjlIMzBMMTggNTRWNDRoLTZ6Ii8+CiAgICA8cGF0aCBkPSJNMzIgMzZzLTEwLTYtMTAtMTNhNiA2IDAgMCAxIDEwLTQgNiA2IDAgMCAxIDEwIDRjMCA3LTEwIDEzLTEwIDEzeiIvPgogIDwvZz4KPC9zdmc+Cg==");
+  cursorMessageIcon = loadImage("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMTAgMTRoNDR2MzFIMzFMMTggNTVWNDVoLTh6Ii8+CiAgPC9nPgo8L3N2Zz4K");
+  brainQuestionIcon = loadImage("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMjQgMTRhMTAgMTAgMCAwIDAtMTAgMTAgOSA5IDAgMCAwIDIgNiAxMCAxMCAwIDAgMCAzIDE4aDhWMTR6Ii8+CiAgICA8cGF0aCBkPSJNMzggMTRhMTAgMTAgMCAwIDEgMTAgMTAgOSA5IDAgMCAxLTIgNiAxMCAxMCAwIDAgMS0zIDE4aC04VjE0eiIvPgogICAgPHBhdGggZD0iTTI0IDIzYy00IDAtNyAzLTcgNyIvPgogICAgPHBhdGggZD0iTTI4IDM1Yy00IDAtNyAzLTcgNyIvPgogICAgPHBhdGggZD0iTTM4IDIzYzQgMCA3IDMgNyA3Ii8+CiAgICA8cGF0aCBkPSJNMzUgMzRhNiA2IDAgMSAxIDggNWMtMyAyLTQgMy00IDYiLz4KICAgIDxwYXRoIGQ9Ik0zOSA1M2guMSIvPgogIDwvZz4KPC9zdmc+Cg==");
+  clockIcon = loadImage("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIyMiIvPgogICAgPHBhdGggZD0iTTMyIDE4djE1bDExIDciLz4KICA8L2c+Cjwvc3ZnPgo=");
+  questionMessageIcon = loadImage("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMTIgMTVoNDB2MjlIMzBMMTggNTRWNDRoLTZ6Ii8+CiAgICA8cGF0aCBkPSJNMjcgMjVhNiA2IDAgMSAxIDkgNWMtMyAyLTQgMy00IDYiLz4KICAgIDxwYXRoIGQ9Ik0zMiA0NGguMSIvPgogIDwvZz4KPC9zdmc+Cg==");
+  xMessageIcon = loadImage("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMTIgMTVoNDB2MjlIMzBMMTggNTRWNDRoLTZ6Ii8+CiAgICA8cGF0aCBkPSJNMjUgMjRsMTQgMTQiLz4KICAgIDxwYXRoIGQ9Ik0zOSAyNEwyNSAzOCIvPgogIDwvZz4KPC9zdmc+Cg==");
+  hidingFaceIcon = loadImage("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjI3IiByPSIxNCIvPgogICAgPHBhdGggZD0iTTE1IDUzYzQtOSAxMS0xMyAxNy0xM3MxMyA0IDE3IDEzIi8+CiAgICA8cGF0aCBkPSJNMjAgMzFsMTIgNyAxMi03Ii8+CiAgICA8cGF0aCBkPSJNMTkgMjBsLTcgNCIvPgogICAgPHBhdGggZD0iTTQ1IDIwbDcgNCIvPgogIDwvZz4KPC9zdmc+Cg==");
+  ellipsisIcon = loadImage("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMTIgMTVoNDB2MjlIMzBMMTggNTRWNDRoLTZ6Ii8+CiAgICA8Y2lyY2xlIGN4PSIyNCIgY3k9IjMwIiByPSIyLjUiIGZpbGw9IiNmZmZmZmYiIHN0cm9rZT0ibm9uZSIvPgogICAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMCIgcj0iMi41IiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9Im5vbmUiLz4KICAgIDxjaXJjbGUgY3g9IjQwIiBjeT0iMzAiIHI9IjIuNSIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSJub25lIi8+CiAgPC9nPgo8L3N2Zz4K");
+}
+
+function setup() {
+  pixelDensity(1);
+  const canvas = createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
+  canvas.parent("sketch-holder");
+  imageMode(window.CENTER);
+  textFont("Arial");
+  textSize(11);
+  textStyle(BOLD);
+  noCursor();
+  particles = participants.map((participant) => new ParticipantParticle(participant));
+}
+
+function draw() {
+  updateCursorStyle();
+  background(OUTSIDE_COLOR);
+  drawPhone();
+  drawCentralAttractor();
+
+  beginScreenClip();
+  for (let particle of particles) {
+    particle.update();
+    particle.display();
+  }
+  endScreenClip();
+
+  drawMessageCursor();
+}
+
+function updateCursorStyle() {
+  if (isMouseInsideHomeButton()) {
+    cursor(HAND);
+    return;
+  }
+
+  noCursor();
+}
+
+function drawPhone() {
+  push();
+  stroke(22);
+  strokeWeight(9);
+  fill(8);
+  rect(PHONE.x, PHONE.y, PHONE.width, PHONE.height, PHONE.radius);
+  noStroke();
+  fill(BACKGROUND_COLOR);
+  rect(SCREEN.x, SCREEN.y, SCREEN.width, SCREEN.height, SCREEN.radius);
+  fill(28);
+  rect(PHONE.x + 159, PHONE.y + 11, 72, 8, 4);
+  drawHomeButton();
+  pop();
+}
+
+function drawHomeButton() {
+  const isHovering = isMouseInsideHomeButton();
+
+  push();
+  noStroke();
+  fill(isHovering ? 245 : 210);
+  rectMode(CENTER);
+  rect(HOME_BUTTON.x, HOME_BUTTON.y, HOME_BUTTON.width, HOME_BUTTON.height, HOME_BUTTON.radius);
+  pop();
+}
+
+function beginScreenClip() {
+  drawingContext.save();
+  drawingContext.beginPath();
+  drawingContext.roundRect(SCREEN.x, SCREEN.y, SCREEN.width, SCREEN.height, SCREEN.radius);
+  drawingContext.clip();
+}
+
+function endScreenClip() {
+  drawingContext.restore();
+}
+
+function drawCentralAttractor() {
+  push();
+  fill(BACKGROUND_COLOR);
+  noStroke();
+  circle(ATTRACTOR.x, ATTRACTOR.y, 108);
+  pop();
+}
+
+function getRepulsionForce(unreadCount) {
+  return constrain(unreadCount, 1, MAX_REPULSION_MESSAGES);
+}
+
+function isMouseInsideScreen() {
+  return mouseX >= SCREEN.x && mouseX <= SCREEN.x + SCREEN.width &&
+    mouseY >= SCREEN.y && mouseY <= SCREEN.y + SCREEN.height;
+}
+
+function isMouseInsideHomeButton() {
+  return mouseX >= HOME_BUTTON.x - HOME_BUTTON.width / 2 &&
+    mouseX <= HOME_BUTTON.x + HOME_BUTTON.width / 2 &&
+    mouseY >= HOME_BUTTON.y - HOME_BUTTON.height / 2 &&
+    mouseY <= HOME_BUTTON.y + HOME_BUTTON.height / 2;
+}
+
+function mousePressed() {
+  if (isMouseInsideHomeButton()) {
+    particles = participants.map((participant) => new ParticipantParticle(participant));
+  }
+}
+
+function touchStarted() {
+  if (isMouseInsideHomeButton()) {
+    particles = participants.map((participant) => new ParticipantParticle(participant));
+    return false;
+  }
+}
+
+function getGenderColor(gender) {
+  return gender === "Female" ? FEMALE_COLOR : MALE_COLOR;
+}
+
+function getIconForReason(reason) {
+  const icons = {
+    "No unread messages": heartMessageIcon,
+    "I forgot": brainQuestionIcon,
+    "I am too busy": clockIcon,
+    "I do not know how to respond": questionMessageIcon,
+    "I do not want to respond": xMessageIcon,
+    "I am avoiding the conversation": hidingFaceIcon,
+    "I usually don’t reply to group chats": ellipsisIcon,
+    "All of the above": ellipsisIcon
+  };
+
+  return icons[reason] || ellipsisIcon;
+}
+
+function drawMessageCursor() {
+  if (!isMouseInsideScreen()) return;
+
+  push();
+  tint(255, 255, 255, 210);
+  image(cursorMessageIcon, mouseX, mouseY, CURSOR_ICON_SIZE, CURSOR_ICON_SIZE);
+  noTint();
+  pop();
+}
+
+class ParticipantParticle {
+  constructor(participant) {
+    this.participant = participant;
+    this.position = createVector(
+      random(SCREEN.x + 24, SCREEN.x + SCREEN.width - 24),
+      random(SCREEN.y + 24, SCREEN.y + SCREEN.height - 24)
+    );
+    this.velocity = p5.Vector.random2D().mult(random(0.3, 1.2));
+    this.acceleration = createVector(0, 0);
+    this.color = getGenderColor(participant.gender);
+    this.icon = getIconForReason(participant.reason);
+    this.maxSpeed = participant.hasUnread ? 4.8 : 5.4;
+    this.maxForce = 0.28;
+  }
+
+  update() {
+    this.acceleration.mult(0);
+
+    if (this.participant.hasUnread && this.participant.unread > 0) {
+      this.applyForce(this.seek(createVector(ATTRACTOR.x, ATTRACTOR.y), 0.5));
+      this.applyUnreadMouseRepulsion();
+    } else {
+      this.applyNoUnreadMouseAttraction();
+    }
+
+    this.applyBoundaryRecovery();
+    this.velocity.add(this.acceleration);
+    this.velocity.mult(0.94);
+    this.velocity.limit(this.maxSpeed);
+    this.position.add(this.velocity);
+    this.keepInCanvas();
+  }
+
+  applyForce(force) {
+    this.acceleration.add(force);
+  }
+
+  seek(target, forceMultiplier) {
+    const desired = p5.Vector.sub(target, this.position);
+    const distance = desired.mag();
+
+    if (distance < 1) {
+      return createVector(0, 0);
+    }
+
+    desired.setMag(this.maxSpeed);
+    const steering = p5.Vector.sub(desired, this.velocity);
+    steering.limit(this.maxForce);
+    steering.mult(forceMultiplier);
+    return steering;
+  }
+
+  applyUnreadMouseRepulsion() {
+    if (!isMouseInsideScreen()) return;
+
+    const mouse = createVector(mouseX, mouseY);
+    const away = p5.Vector.sub(this.position, mouse);
+    const distance = max(away.mag(), 1);
+
+    if (distance < MOUSE_REPULSION_RADIUS) {
+      const forceStrength = getRepulsionForce(this.participant.unread);
+      const falloff = sq(1 - distance / MOUSE_REPULSION_RADIUS);
+      away.setMag((forceStrength / 100) * 13 * falloff);
+      this.applyForce(away);
+    }
+  }
+
+  applyNoUnreadMouseAttraction() {
+    if (isMouseInsideScreen()) {
+      this.applyForce(this.seek(createVector(mouseX, mouseY), 0.24));
+      return;
+    }
+
+    this.applyForce(this.seek(createVector(ATTRACTOR.x, ATTRACTOR.y), 0.05));
+  }
+
+  applyBoundaryRecovery() {
+    const margin = 42;
+    const recovery = createVector(0, 0);
+    const left = SCREEN.x + margin;
+    const right = SCREEN.x + SCREEN.width - margin;
+    const top = SCREEN.y + margin;
+    const bottom = SCREEN.y + SCREEN.height - margin;
+
+    if (this.position.x < left) recovery.x = map(this.position.x, SCREEN.x, left, 0.7, 0);
+    if (this.position.x > right) recovery.x = map(this.position.x, SCREEN.x + SCREEN.width, right, -0.7, 0);
+    if (this.position.y < top) recovery.y = map(this.position.y, SCREEN.y, top, 0.7, 0);
+    if (this.position.y > bottom) recovery.y = map(this.position.y, SCREEN.y + SCREEN.height, bottom, -0.7, 0);
+
+    this.applyForce(recovery);
+  }
+
+  keepInCanvas() {
+    const padding = 18;
+    const left = SCREEN.x + padding;
+    const right = SCREEN.x + SCREEN.width - padding;
+    const top = SCREEN.y + padding;
+    const bottom = SCREEN.y + SCREEN.height - padding;
+
+    if (this.position.x < left || this.position.x > right) {
+      this.velocity.x *= -0.45;
+    }
+
+    if (this.position.y < top || this.position.y > bottom) {
+      this.velocity.y *= -0.45;
+    }
+
+    this.position.x = constrain(this.position.x, left, right);
+    this.position.y = constrain(this.position.y, top, bottom);
+  }
+
+  display() {
+    const labelOffset = this.getLabelOffset();
+
+    push();
+    tint(this.color);
+    image(this.icon, this.position.x, this.position.y, ICON_SIZE, ICON_SIZE);
+    noTint();
+    pop();
+
+    this.drawUnreadCount(labelOffset);
+  }
+
+  getLabelOffset() {
+    const xOffset = this.position.x > SCREEN.x + SCREEN.width - 72 ? -34 : 20;
+    const yOffset = this.position.y < SCREEN.y + 24 ? 18 : -14;
+    return createVector(xOffset, yOffset);
+  }
+
+  drawUnreadCount(offset) {
+    const label = String(this.participant.unread);
+    const x = constrain(
+      this.position.x + offset.x,
+      SCREEN.x + 8,
+      SCREEN.x + SCREEN.width - textWidth(label) - 8
+    );
+    const y = constrain(this.position.y + offset.y, SCREEN.y + 14, SCREEN.y + SCREEN.height - 8);
+
+    push();
+    stroke(BACKGROUND_COLOR);
+    strokeWeight(4);
+    fill(this.color);
+    textAlign(LEFT, window.CENTER);
+    text(label, x, y);
+    pop();
+  }
+}
+
+    </script>
+  </body>
+</html>
