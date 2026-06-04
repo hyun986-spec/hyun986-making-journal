@@ -39,7 +39,6 @@ As part of the class activity, I had an interview-style discussion with Yesul ab
 
 **Intended Impact of the Final Data Visualisation:** The aim of this project is to provide an intuitive overview of unread and unanswered message behaviours among UOA students. Viewers can interact with individual data points by moving the mouse, allowing them to explore participants' messaging habits and communication behaviours directly. The visualisation also allows viewers to compare who has more unread messages and examine the different reasons participants give for delaying or avoiding replies. Through this process, I hope audiences will begin to see unread messages and communication avoidance not only as negative behaviours, but also as forms of communication that occur within digital environments. Ultimately, the project aims to go beyond simply presenting data and instead encourage viewers to reflect on their own messaging habits, digital fatigue, communication avoidance, and the ways they manage relationships within contemporary digital environments.
 
-
 <br>
 
 ## 3. Showcase Planning
