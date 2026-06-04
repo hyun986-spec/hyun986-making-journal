@@ -42,7 +42,7 @@ This feedback also reminded me of my tutor’s suggestion in Week 6 to consider 
 
 ### 1.3 Developed Concept Sketch
 ![alt text](../assets/week-07/week7-5.png)
-*(figure: sketch showing the grouped particle concept)*
+*(Figure: sketch showing the grouped particle concept)*
 
 <br>
 
