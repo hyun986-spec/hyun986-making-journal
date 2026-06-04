@@ -99,7 +99,7 @@ Once I confirmed that the prototype was functioning correctly, I added the remai
 
 ## Final Data-Based Visualisation
 
-<iframe src="https://editor.p5js.org/hyun986/full/NlKgRF29O" height="900" width="600"></iframe>
+<iframe src="https://editor.p5js.org/hyun986/full/NlKgRF29O" height="1000" width="600"></iframe>
 *(Source: Final interactive visualisation based on survey data collected from 53 participants)*
 
 <br>
