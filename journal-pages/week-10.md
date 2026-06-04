@@ -6,8 +6,10 @@ layout: default
 
 [← Back to Home](../index.md)
 
-# In-Class Activities
 ---
+
+# In-Class Activities
+
 I was unable to attend the Week 10 class due to illness, so I completed the in-class activities independently from home.
 
 1. Progress Reports
@@ -18,14 +20,12 @@ I was unable to attend the Week 10 class due to illness, so I completed the in-c
 ## 1. Progress Reports
 
 ![alt text](../assets/week-10/week10-1.png)
-*(Figure: Presentation Slide 6)*
+*(Figure: Presentation Slide: Questions for Feedback)*
 
 The original activity required students to share a progress report slideshow with a small group, participate in group discussions and feedback sessions, and record comments on Padlet. However, I was unable to attend class because my cold returned at the time. To catch up on the activity, I later met with my classmate Yesul and we presented our projects to each other, exchanging feedback based on a set of prepared questions.
 
 **Feedback from Yesul:** 
-After viewing my project, Yesul commented that the current direction of representing each participant's data individually was more interesting and convincing than the earlier approach of using average data. She also felt that the particle movements effectively communicated the idea of communication avoidance and that the project's intention could be understood without requiring extensive explanation. She also suggested replacing the abstract shapes currently used to represent the reasons for leaving messages unread with more intuitive icons. She believed this could help viewers understand the meaning of each reason more quickly and make the data easier to interpret. I found this suggestion particularly useful because it highlighted a way to improve the clarity of the visualisation.
-
-This feedback also helped me realise that the project could develop beyond simply showing unread message counts and instead communicate participants' behavioural patterns and reasons for not responding in a more meaningful way.
+After viewing my project, Yesul commented that the current direction of representing each participant's data individually was more interesting and convincing than the earlier approach of using average data. She also felt that the particle movements effectively communicated the idea of communication avoidance and that the project's intention could be understood without requiring extensive explanation. She also suggested replacing the abstract shapes currently used to represent the reasons for leaving messages unread with more intuitive icons. She believed this could help viewers understand the meaning of each reason more quickly and make the data easier to interpret. I found this suggestion particularly useful because it highlighted a way to improve the clarity of the visualisation. This feedback also helped me realise that the project could develop beyond simply showing unread message counts and instead communicate participants' behavioural patterns and reasons for not responding in a more meaningful way.
 
 
 *(While reviewing the course requirements during the final stages of the project in Week 12, I realised that I had overlooked the requirement to leave comments on Padlet. As a result, I added my feedback later than intended.)*
@@ -59,6 +59,7 @@ I also plan to experiment with an interaction that I have been considering for s
 
 <br>
 
+---
 # Independent Study
 
 ## Project Development
@@ -87,12 +88,12 @@ Based on the ideas above, I first used Gemini to create a detailed prompt and th
 
 *(Source: Version 2 with smartphone interface)*
 
-I was inspired by the "Multitap Text" example from Week 6. Because my project focuses on unread messages, I added a smartphone-shaped frame to make the visualisation feel more like a familiar messaging environment, allowing viewers to become more immersed in the experience.
+I was inspired by the "Multitap Text" example from Week 6. Because my project focuses on unread messages, I added a smartphone-shaped frame to make the visualisation feel more like a familiar messaging environment, allowing viewers to become more immersed in the experience. I also added a home button that allows users to reset the dataset. This was necessary because participants with 0 unread messages tend to gather in the centre of the screen, making it difficult to identify individual data points and compare them with other participants.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sUYBluVAHV0?si=53AaBZuDLkViYyVG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*(Source: Final version with refined smartphone interface and interaction settings)*
+*(Source: Final version with refined smartphone interface and interaction settings)* 
 
 In the final version, I refined the smartphone interface and adjusted the sensitivity of the particle interactions. In earlier versions, avoidance behaviour was grouped into ranges such as 1–10 unread messages or 11–20 unread messages, meaning participants within the same range behaved identically. In this version, I modified the system so that each participant's movement responds to their exact unread message count. This allows every particle to behave slightly differently and makes individual differences within the dataset more visible. To prevent extremely large values from dominating the visualisation, I capped the maximum unread message value at 100. Any value above 100 is treated as the same maximum avoidance level.
 
